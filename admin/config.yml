@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: foxah047-stack/cgbvrr.axiomorphe.ca
+  repo: foxah047-stack/secure
   branch: main
 
 media_folder: assets/img
@@ -87,7 +87,7 @@ collections:
       - label: Identifiant interne / Internal slug
         name: title
         widget: string
-        hint: "Utilisez uniquement des lettres minuscules, des chiffres et des traits d'union. Ce champ devient l'URL de la page. Exemple: watershade crée https://cgbvrr.axiomorphe.ca/projects/watershade/. Ne pas utiliser d'espaces, d'accents, d'apostrophes, de symboles ou de ponctuation. / Use lowercase letters, numbers, and hyphens only. This becomes the page URL. Example: watershade creates https://cgbvrr.axiomorphe.ca/projects/watershade/. Do not use spaces, accents, apostrophes, symbols, or punctuation."
+        hint: "Utilisez uniquement des lettres minuscules, des chiffres et des traits d'union. Ce champ devient l'URL de la page. Exemple: watershade crée https://secure.axiomorphe.ca/projects/watershade/. Ne pas utiliser d'espaces, d'accents, d'apostrophes, de symboles ou de ponctuation. / Use lowercase letters, numbers, and hyphens only. This becomes the page URL. Example: watershade creates https://secure.axiomorphe.ca/projects/watershade/. Do not use spaces, accents, apostrophes, symbols, or punctuation."
         pattern:
           - "^[a-z0-9-]+$"
           - "Utilisez uniquement des minuscules, chiffres et traits d'union. / Use lowercase letters, numbers, and hyphens only."
