@@ -1,0 +1,157 @@
+hero_label_en: Inspired by nature
+hero_label_fr: Inspirée par la nature
+hero_title_en: Team
+hero_title_fr: Équipe
+hero_lead_en: Our multidisciplinary team is motivated by maintaining a healthy environment and conserving healthy ecosystems.
+hero_lead_fr: Notre équipe multidisciplinaire est motivée par le maintien d’un environnement sain et la conservation d’écosystèmes en santé.
+intro_label_en: Organization
+intro_label_fr: Organisation
+intro_title_en: Complementary roles in project management and field work
+intro_title_fr: Des rôles complémentaires sur le terrain et dans la gestion des projets
+intro_body_en: The Council brings together coordination, project management and field-monitoring roles.
+intro_body_fr: Le CGBVRR réunit des rôles de coordination, de gestion de projets et de surveillance terrain.
+items:
+  - type: group
+    label_en: Internal roles
+    label_fr: Rôles internes
+    title_en: Management and coordination
+    title_fr: Coordination et gestion
+    description_en: Direction, project coordination, sector supervision and administrative follow-up.
+    description_fr: Direction, coordination des projets, supervision des secteurs et suivi administratif.
+  - type: profile
+    title_en: Executive director
+    title_fr: Directeur général
+    description_en: Organizational leadership, partner relations and overall priorities.
+    description_fr: Direction de l’organisation, relations avec les partenaires et priorités générales.
+    visible: true
+    name: Jean-Daniel Savard
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Scientific project manager
+    title_fr: Gestionnaire de projets scientifiques
+    description_en: Project coordination, technical follow-up, data and scientific collaboration.
+    description_fr: Coordination des projets, suivis techniques, données et collaboration scientifique.
+    visible: true
+    name: Renaud Quilbé
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Sector supervisor – Upsalquitch
+    title_fr: Superviseure – Secteur Upsalquitch
+    description_en: Field activity supervision, seasonal team support and site follow-up.
+    description_fr: Encadrement des activités terrain, soutien aux équipes saisonnières et suivi des sites.
+    visible: true
+    name: Christine Haché
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Sector supervisor – Kedgwick
+    title_fr: Superviseur – Secteur Kedgwick
+    description_en: Field activity supervision, seasonal team support and site follow-up.
+    description_fr: Encadrement des activités terrain, soutien aux équipes saisonnières et suivi des sites.
+    visible: true
+    name: Jocelyn Lepage
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: group
+    label_en: Field
+    label_fr: Terrain
+    title_en: Field operations and monitoring
+    title_fr: Terrain et surveillance
+    description_en: Seasonal and operational roles can be presented clearly without publishing unnecessary personal information.
+    description_fr: Les rôles saisonniers et opérationnels peuvent être présentés clairement, sans publier d’information personnelle inutile.
+  - type: profile
+    title_en: Field worker – Kedgwick
+    title_fr: Ouvrier de terrain – Secteur Kedgwick
+    description_en: Practical work, logistics, maintenance, restoration and site support.
+    description_fr: Travaux pratiques, soutien logistique, entretien, restauration et appui aux sites.
+    visible: true
+    name: Francis Smith
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Field worker – Upsalquitch
+    title_fr: Ouvrier de terrain – Secteur Upsalquitch
+    description_en: Practical work, logistics, maintenance, restoration and site support.
+    description_fr: Travaux pratiques, soutien logistique, entretien, restauration et appui aux sites.
+    visible: true
+    name: Randal Bernatchez
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – Kedgwick Forks
+    title_fr: Gardien de fosse – Fourche de Kedgwick
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Marcel Martel
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – Kedgwick Forks
+    title_fr: Gardien de fosse – Fourche de Kedgwick
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Gilles Thibeault
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – 10 Mile Barrier
+    title_fr: Gardien de fosse – Barrière du 10 Mile
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Jason Côté
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – 10 Mile Barrier
+    title_fr: Gardien de fosse – Barrière du 10 Mile
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Gilles Laliberté
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – 10 Mile Barrier
+    title_fr: Gardien de fosse – Barrière du 10 Mile
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Marc St-Pierre
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Pool guardian – 10 Mile Barrier
+    title_fr: Gardien de fosse – Barrière du 10 Mile
+    description_en: Pool monitoring, field presence and reporting situations that may put the river at risk.
+    description_fr: Surveillance des fosses, présence terrain et signalement des situations à risque.
+    visible: true
+    name: Yves Thériault
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''
+  - type: profile
+    title_en: Seasonal support
+    title_fr: Appui saisonnier
+    description_en: Additional capacity during monitoring, assessment and watershed field-work periods.
+    description_fr: Renfort lors des périodes de surveillance, de suivi ou de travaux sur le bassin versant.
+    visible: true
+    name: ''
+    photo: ''
+    photo_alt_en: ''
+    photo_alt_fr: ''

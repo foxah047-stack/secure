@@ -1,0 +1,39 @@
+---
+layout: default
+title: Rapports et publications
+permalink: /resources/research/
+---
+
+<section class="page-hero structure-preview-hero page-hero-photo" style="background-image: linear-gradient(rgba(17, 17, 17, 0.56), rgba(17, 17, 17, 0.72)), url('{{ '/assets/img/panoramas/pan6.png' | relative_url }}');">
+  <div class="page-hero-inner">
+    <p class="section-label"><span data-lang="en">Resources</span><span data-lang="fr">Ressources</span></p>
+    <h1><span data-lang="en">Reports &amp; publications</span><span data-lang="fr">Rapports et publications</span></h1>
+    <p class="page-lead"><span data-lang="en">Committee reports, newsletters, environmental documentation, maps and project records published by the Council over the years.</span><span data-lang="fr">Rapports de comités, bulletins, documentation environnementale, cartes et documents de projets publiés par le Conseil au fil des ans.</span></p>
+  </div>
+</section>
+
+<main class="detail-page">
+  <section class="reports-accordion">
+    {% assign categories = site.data.reports.categories %}
+    {% for cat in categories %}
+    <details class="report-category">
+      <summary>
+        <span class="report-category-title">
+          <span data-lang="en">{{ cat.label_en }}</span><span data-lang="fr">{{ cat.label_fr }}</span>
+        </span>
+        <span class="report-category-count">{{ cat.documents.size }}</span>
+      </summary>
+      <ul class="report-list">
+        {% for doc in cat.documents %}
+        <li class="report-item">
+          <a href="{{ doc.file | relative_url }}" target="_blank" rel="noopener">
+            <span class="report-item-title"><span data-lang="en">{{ doc.title_en }}</span><span data-lang="fr">{{ doc.title_fr }}</span></span>
+            <span class="report-item-date">{{ doc.date | date: "%Y" }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endfor %}
+  </section>
+</main>

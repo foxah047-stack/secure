@@ -1,0 +1,148 @@
+---
+layout: default
+title: Équipe
+lang: fr
+permalink: /team/
+---
+
+{% assign team = site.data.team %}
+
+<section class="page-hero structure-preview-hero team-hero page-hero-photo" style="background-image: linear-gradient(rgba(17, 17, 17, 0.56), rgba(17, 17, 17, 0.72)), url('{{ '/assets/img/panoramas/pan2.png' | relative_url }}');">
+  <div class="page-hero-inner">
+    <p class="section-label">
+      <span data-lang="en">{{ team.hero_label_en | default: "Team" }}</span>
+      <span data-lang="fr">{{ team.hero_label_fr | default: "Équipe" }}</span>
+    </p>
+    <h1>
+      <span data-lang="en">{{ team.hero_title_en | default: "Team" }}</span>
+      <span data-lang="fr">{{ team.hero_title_fr | default: "Équipe" }}</span>
+    </h1>
+    <p class="page-lead" data-lang="en">{{ team.hero_lead_en }}</p>
+    <p class="page-lead" data-lang="fr">{{ team.hero_lead_fr }}</p>
+  </div>
+</section>
+
+<main class="detail-page">
+  <section class="team-intro-card">
+    <p class="section-label">
+      <span data-lang="en">{{ team.intro_label_en | default: "Organization" }}</span>
+      <span data-lang="fr">{{ team.intro_label_fr | default: "Organisation" }}</span>
+    </p>
+    <h2>
+      <span data-lang="en">{{ team.intro_title_en }}</span>
+      <span data-lang="fr">{{ team.intro_title_fr }}</span>
+    </h2>
+    <p data-lang="en">{{ team.intro_body_en }}</p>
+    <p data-lang="fr">{{ team.intro_body_fr }}</p>
+  </section>
+
+  <section class="team-roster" aria-labelledby="team-roster-title">
+    <h2 class="visually-hidden" id="team-roster-title">
+      <span data-lang="en">Team roster</span>
+      <span data-lang="fr">Liste des membres de l’équipe</span>
+    </h2>
+
+    <div class="team-roster-grid">
+      {% assign group_seen = false %}
+      {% assign fallback_shown = false %}
+
+      {% for item in team.items %}
+        {% case item.type %}
+          {% when "group" %}
+            {% assign group_seen = true %}
+            <header class="team-group-heading section-heading-row">
+              <div>
+                {% if item.label_en != blank or item.label_fr != blank %}
+                  <p class="section-label">
+                    <span data-lang="en">{{ item.label_en }}</span>
+                    <span data-lang="fr">{{ item.label_fr }}</span>
+                  </p>
+                {% endif %}
+                <h2>
+                  <span data-lang="en">{{ item.title_en }}</span>
+                  <span data-lang="fr">{{ item.title_fr }}</span>
+                </h2>
+              </div>
+              {% if item.description_en != blank or item.description_fr != blank %}
+                <p>
+                  <span data-lang="en">{{ item.description_en }}</span>
+                  <span data-lang="fr">{{ item.description_fr }}</span>
+                </p>
+              {% endif %}
+            </header>
+
+          {% when "profile" %}
+            {% unless item.visible == false %}
+              {% unless group_seen or fallback_shown %}
+                {% assign fallback_shown = true %}
+                <header class="team-group-heading section-heading-row team-fallback-heading">
+                  <div>
+                    <p class="section-label">
+                      <span data-lang="en">Team</span>
+                      <span data-lang="fr">Équipe</span>
+                    </p>
+                    <h2>
+                      <span data-lang="en">Other team members</span>
+                      <span data-lang="fr">Autres membres de l’équipe</span>
+                    </h2>
+                  </div>
+                </header>
+              {% endunless %}
+
+              <article class="person-card">
+                {% if item.photo != blank %}
+                  <div class="person-photo">
+                    <img
+                      src="{{ item.photo | relative_url }}"
+                      alt="{{ item.photo_alt_en | default: item.name | escape }}"
+                      data-i18n-alt
+                      data-alt-en="{{ item.photo_alt_en | default: item.name | escape }}"
+                      data-alt-fr="{{ item.photo_alt_fr | default: item.name | escape }}"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                {% else %}
+                  <div class="person-photo-placeholder" aria-hidden="true">
+                    <span data-lang="en">Photo</span>
+                    <span data-lang="fr">Photo</span>
+                  </div>
+                {% endif %}
+
+                {% if item.name != empty %}
+                  <h3>{{ item.name }}</h3>
+                {% endif %}
+
+                {% if item.title_en != blank or item.title_fr != blank %}
+                  <p class="person-role">
+                    <span data-lang="en">{{ item.title_en }}</span>
+                    <span data-lang="fr">{{ item.title_fr }}</span>
+                  </p>
+                {% endif %}
+
+                {% if item.description_en != blank or item.description_fr != blank %}
+                  <p class="person-description" data-lang="en">{{ item.description_en }}</p>
+                  <p class="person-description" data-lang="fr">{{ item.description_fr }}</p>
+                {% endif %}
+              </article>
+            {% endunless %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="team-section-preview muted-section">
+    <p class="section-label"><span data-lang="en">Network</span><span data-lang="fr">Réseau</span></p>
+    <h2><span data-lang="en">Members and partners</span><span data-lang="fr">Membres et partenaires</span></h2>
+    <p data-lang="en">The Council's work is also supported by voting member organizations, government and conservation partners, and a Board of Directors drawn from across the watershed.</p>
+    <p data-lang="fr">Le travail du CGBVRR s’appuie aussi sur des organismes membres votants, des partenaires gouvernementaux et de conservation, ainsi qu’un conseil d’administration représentant l’ensemble du bassin versant.</p>
+    <a class="btn-text" href="/members-and-partners/"><span data-lang="en">See members and partners</span><span data-lang="fr">Voir les membres et partenaires</span></a>
+  </section>
+
+  <section class="decision-prompt soft-prompt" id="employment">
+    <p class="section-label"><span data-lang="en">Employment</span><span data-lang="fr">Emploi</span></p>
+    <h2><span data-lang="en">Working with the Council</span><span data-lang="fr">Travailler avec le Conseil</span></h2>
+    <p data-lang="en">Employment opportunities are announced through News. Applications and employment inquiries can be sent through the Contact page.</p>
+    <p data-lang="fr">Les offres d’emploi sont annoncées dans les Nouvelles. Les candidatures et demandes d’emploi peuvent être envoyées par la page Contact.</p>
+    <a class="btn-primary" href="/contact/#employment"><span data-lang="en">Employment inquiries</span><span data-lang="fr">Demandes d’emploi</span></a>
+  </section>
+</main>

@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+{% assign project_status = page.status | default: 'draft' %}
+{% assign hero_image = page.hero_image | default: '' | strip %}
+
+{% assign title_fr = page.title_fr | default: page.title | default: '' | strip %}
+{% assign title_en = page.title_en | default: title_fr | strip %}
+{% assign subtitle_fr = page.subtitle_fr | default: '' | strip %}
+{% assign subtitle_en = page.subtitle_en | default: subtitle_fr | strip %}
+{% assign hero_alt_fr = page.hero_alt_fr | default: title_fr | strip %}
+{% assign hero_alt_en = page.hero_alt_en | default: hero_alt_fr | strip %}
+{% assign hero_caption_fr = page.hero_caption_fr | default: '' | strip %}
+{% assign hero_caption_en = page.hero_caption_en | default: hero_caption_fr | strip %}
+
+<article class="project-page">
+  <header class="project-hero{% if hero_image == '' %} project-hero-no-image{% endif %}"{% if hero_image != '' %} style="background-image: linear-gradient(rgba(17, 17, 17, 0.56), rgba(17, 17, 17, 0.72)), url('{{ hero_image | relative_url }}');"{% endif %}>
+    <div class="project-hero-inner">
+      <p class="section-label"><span data-lang="fr">Projet</span><span data-lang="en">Project</span></p>
+      {% if project_status and project_status != 'published' %}
+        <p class="project-status-pill project-status-{{ project_status }}">{{ project_status | capitalize }}</p>
+      {% endif %}
+      {% if title_fr != '' or title_en != '' %}
+        <h1><span data-lang="fr">{{ title_fr }}</span><span data-lang="en">{{ title_en }}</span></h1>
+      {% endif %}
+      {% if subtitle_fr != '' or subtitle_en != '' %}
+        <p class="project-lead" data-lang="fr">{{ subtitle_fr }}</p>
+        <p class="project-lead" data-lang="en">{{ subtitle_en }}</p>
+      {% endif %}
+      {% if hero_caption_fr != '' or hero_caption_en != '' %}
+        <p class="project-hero-caption" data-lang="fr">{{ hero_caption_fr }}</p>
+        <p class="project-hero-caption" data-lang="en">{{ hero_caption_en }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <main class="project-content">
+    {% for section in page.sections %}
+      {% assign kicker_fr = section.kicker_fr | default: '' | strip %}
+      {% assign kicker_en = section.kicker_en | default: kicker_fr | strip %}
+      {% assign sec_title_fr = section.title_fr | default: '' | strip %}
+      {% assign sec_title_en = section.title_en | default: sec_title_fr | strip %}
+
+      {% case section.type %}
+
+        {% when 'text' %}
+          {% assign body_fr = section.body_fr | default: '' | strip %}
+          {% assign body_en = section.body_en | default: body_fr | strip %}
+          {% assign has_image = false %}
+          {% if section.image_show and section.image %}{% assign has_image = true %}{% endif %}
+          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_image %}
+          <section class="project-section{% if has_image %} project-split-section{% endif %}">
+            <div>
+              {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
+              {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
+              {% if body_fr != '' %}<div class="project-richtext" data-lang="fr">{{ body_fr | markdownify }}</div>{% endif %}
+              {% if body_en != '' %}<div class="project-richtext" data-lang="en">{{ body_en | markdownify }}</div>{% endif %}
+            </div>
+            {% if has_image %}
+              {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class='project-side-image' %}
+            {% endif %}
+          </section>
+          {% endif %}
+
+        {% when 'steps' %}
+          {% assign intro_fr = section.intro_fr | default: '' | strip %}
+          {% assign intro_en = section.intro_en | default: intro_fr | strip %}
+          {% assign has_steps = false %}
+          {% if section.steps %}
+            {% for step in section.steps %}
+              {% if step.title_fr != '' or step.text_fr != '' %}{% assign has_steps = true %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% assign has_image = false %}
+          {% if section.image_show and section.image %}{% assign has_image = true %}{% endif %}
+          {% if kicker_fr != '' or sec_title_fr != '' or intro_fr != '' or has_steps %}
+          <section class="project-section project-process-section">
+            {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
+            {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
+            {% if intro_fr != '' %}<div class="project-richtext" data-lang="fr">{{ intro_fr | markdownify }}</div>{% endif %}
+            {% if intro_en != '' %}<div class="project-richtext" data-lang="en">{{ intro_en | markdownify }}</div>{% endif %}
+            {% if has_steps %}
+            <div class="project-steps">
+              {% for step in section.steps %}
+                {% assign step_title_fr = step.title_fr | default: '' | strip %}
+                {% assign step_title_en = step.title_en | default: step_title_fr | strip %}
+                {% assign step_text_fr = step.text_fr | default: '' | strip %}
+                {% assign step_text_en = step.text_en | default: step_text_fr | strip %}
+                {% if step_title_fr != '' or step_text_fr != '' %}
+                <div class="project-step-card">
+                  <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+                  {% if step_title_fr != '' %}<h3><span data-lang="fr">{{ step_title_fr }}</span><span data-lang="en">{{ step_title_en }}</span></h3>{% endif %}
+                  {% if step_text_fr != '' %}<p data-lang="fr">{{ step_text_fr }}</p>{% endif %}
+                  {% if step_text_en != '' %}<p data-lang="en">{{ step_text_en }}</p>{% endif %}
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+            {% if has_image %}
+              {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class='project-wide-image' %}
+            {% endif %}
+          </section>
+          {% endif %}
+
+        {% when 'stats' %}
+          {% assign body_fr = section.body_fr | default: '' | strip %}
+          {% assign body_en = section.body_en | default: body_fr | strip %}
+          {% assign has_stats = false %}
+          {% if section.stats %}
+            {% for stat in section.stats %}
+              {% if stat.value_fr != '' or stat.label_fr != '' %}{% assign has_stats = true %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_stats %}
+          <section class="project-section project-scope-section">
+            {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
+            {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
+            {% if body_fr != '' %}<div class="project-richtext" data-lang="fr">{{ body_fr | markdownify }}</div>{% endif %}
+            {% if body_en != '' %}<div class="project-richtext" data-lang="en">{{ body_en | markdownify }}</div>{% endif %}
+            {% if has_stats %}
+            <div class="project-stats-grid">
+              {% for stat in section.stats %}
+                {% assign stat_value_fr = stat.value_fr | default: '' | strip %}
+                {% assign stat_value_en = stat.value_en | default: stat_value_fr | strip %}
+                {% assign stat_label_fr = stat.label_fr | default: '' | strip %}
+                {% assign stat_label_en = stat.label_en | default: stat_label_fr | strip %}
+                {% if stat_value_fr != '' or stat_label_fr != '' %}
+                <div class="project-stat-card">
+                  {% if stat_value_fr != '' %}<strong data-lang="fr">{{ stat_value_fr }}</strong>{% endif %}
+                  {% if stat_value_en != '' %}<strong data-lang="en">{{ stat_value_en }}</strong>{% endif %}
+                  {% if stat_label_fr != '' %}<span data-lang="fr">{{ stat_label_fr }}</span>{% endif %}
+                  {% if stat_label_en != '' %}<span data-lang="en">{{ stat_label_en }}</span>{% endif %}
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </section>
+          {% endif %}
+
+        {% when 'related' %}
+          {% assign has_cards = false %}
+          {% if section.cards %}
+            {% for card in section.cards %}
+              {% if card.title_fr != '' or card.url != '' %}{% assign has_cards = true %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if kicker_fr != '' or sec_title_fr != '' or has_cards %}
+          <section class="project-section project-related-section">
+            {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
+            {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
+            {% if has_cards %}
+            <div class="project-related-grid">
+              {% for card in section.cards %}
+                {% assign card_label_fr = card.label_fr | default: '' | strip %}
+                {% assign card_label_en = card.label_en | default: card_label_fr | strip %}
+                {% assign card_title_fr = card.title_fr | default: '' | strip %}
+                {% assign card_title_en = card.title_en | default: card_title_fr | strip %}
+                {% assign card_text_fr = card.text_fr | default: '' | strip %}
+                {% assign card_text_en = card.text_en | default: card_text_fr | strip %}
+                {% assign card_url = card.url | default: '' | strip %}
+                {% if card_title_fr != '' or card_url != '' %}
+                <a class="project-related-card" href="{{ card_url | default: '#' | relative_url }}">
+                  {% if card_label_fr != '' %}<span data-lang="fr">{{ card_label_fr }}</span>{% endif %}
+                  {% if card_label_en != '' %}<span data-lang="en">{{ card_label_en }}</span>{% endif %}
+                  {% if card_title_fr != '' %}<h3><span data-lang="fr">{{ card_title_fr }}</span><span data-lang="en">{{ card_title_en }}</span></h3>{% endif %}
+                  {% if card_text_fr != '' %}<p data-lang="fr">{{ card_text_fr }}</p>{% endif %}
+                  {% if card_text_en != '' %}<p data-lang="en">{{ card_text_en }}</p>{% endif %}
+                </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </section>
+          {% endif %}
+
+        {% when 'note' %}
+          {% assign body_fr = section.body_fr | default: '' | strip %}
+          {% assign body_en = section.body_en | default: body_fr | strip %}
+          {% if sec_title_fr != '' or body_fr != '' %}
+          <aside class="project-note-box">
+            {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
+            {% if body_fr != '' %}<div class="project-richtext" data-lang="fr">{{ body_fr | markdownify }}</div>{% endif %}
+            {% if body_en != '' %}<div class="project-richtext" data-lang="en">{{ body_en | markdownify }}</div>{% endif %}
+          </aside>
+          {% endif %}
+
+      {% endcase %}
+    {% endfor %}
+  </main>
+</article>
