@@ -40,4 +40,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - wrangler.jsonc
   - node_modules
