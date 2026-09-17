@@ -5,42 +5,6 @@ categories:
     label_fr: "Rapports des comités"
     label_en: "Committee reports"
     documents:
-      - title_fr: "Rapport du comité de protection — 2012"
-        title_en: "Protection Committee Report — 2012"
-        date: "2013-09-06"
-        file: /assets/documents/comite-protection2012protection-committee.pdf
-      - title_fr: "Rapport du comité science — 2012"
-        title_en: "Science Committee Report — 2012"
-        date: "2013-09-06"
-        file: /assets/documents/science-committee-report-for-year2012.pdf
-      - title_fr: "Présentation du comité science — 2013"
-        title_en: "Science Committee Presentation — 2013"
-        date: "2014-03-04"
-        file: /assets/documents/science-presentation-for-year2013.pdf
-      - title_fr: "Rapport du comité science — 2013"
-        title_en: "Science Committee Report — 2013"
-        date: "2014-03-04"
-        file: /assets/documents/science-committee-report-year2013.pdf
-      - title_fr: "Rapport du comité science — 2016"
-        title_en: "Science Committee Report — 2016"
-        date: "2017-03-08"
-        file: /assets/documents/science-committee-report-2016eng.pdf
-      - title_fr: "Rapport du comité science — 2017"
-        title_en: "Science Committee Report — 2017"
-        date: "2018-03-28"
-        file: /assets/documents/science-committee-report-2017eng.pdf
-      - title_fr: "Rapport du comité science — 2018"
-        title_en: "Science Committee Report — 2018"
-        date: "2019-02-26"
-        file: /assets/documents/science-committee-report-2018.pdf
-      - title_fr: "Présentation du comité science — 2018"
-        title_en: "Science Committee Presentation — 2018"
-        date: "2019-02-26"
-        file: /assets/documents/presentation-science-year2018.pdf
-      - title_fr: "Rapport du comité science — AGA 2020"
-        title_en: "Science Committee Report — AGM 2020"
-        date: "2020-03-10"
-        file: /assets/documents/science-committee-report-rrwmc-agm2020.pdf
       - title_fr: "Rapport du comité science — 2021"
         title_en: "Science Committee Report — 2021"
         date: "2021-04-15"
