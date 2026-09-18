@@ -68,7 +68,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     .ws-hero p.intro{font-size:1.15rem;color:var(--ink);margin:0;max-width:60ch;}
 
     /* ---- Rythme general ---- */
-    .ws section{margin:clamp(1.1rem,2.5vw,1.8rem) 0;}
+    .ws section{margin:clamp(.55rem,1.2vw,.9rem) 0;}
     .ws h2{
       font-family:var(--display);font-weight:500;font-optical-sizing:auto;
       font-size:clamp(1.7rem,4vw,2.2rem);line-height:1.12;letter-spacing:-.01em;
@@ -106,7 +106,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     .ws-partner-links a{color:var(--teal);font-weight:500;text-decoration-thickness:1px;text-underline-offset:3px;}
 
     /* ---- Emplacements image (a remplacer) ---- */
-    .ws-fig{margin:clamp(1rem,2.5vw,1.7rem) auto;max-width:880px;padding:0 24px;}
+    .ws-fig{margin:clamp(.55rem,1.2vw,.9rem) auto;max-width:880px;padding:0 24px;}
     .ws-ph{
       position:relative;aspect-ratio:16/10;background:var(--panel);
       border:1px solid var(--rule);border-radius:3px;
