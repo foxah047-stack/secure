@@ -98,8 +98,12 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     .ws-steps p{margin:0;color:var(--muted);font-size:1rem;}
     .ws-step-media{display:grid;gap:.45rem;align-content:start;}
     .ws-step-photo{display:block;width:120px;height:86px;object-fit:cover;border:1px solid var(--rule);border-radius:3px;}
-    .ws-document-link{display:inline-block;margin-top:.25rem;padding:.6rem .85rem;background:var(--teal);color:#fff;text-decoration:none;font-weight:500;border-radius:3px;}
+    .ws-document-links{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:.25rem;}
+    .ws-document-link{display:inline-block;padding:.6rem .85rem;background:var(--teal);color:#fff;text-decoration:none;font-weight:500;border-radius:3px;}
     .ws-document-link:hover{background:var(--river);}
+    .ws-document-link--secondary{background:var(--river);}
+    .ws-partner-links{display:flex;flex-wrap:wrap;gap:.55rem;margin:.85rem 0 0;}
+    .ws-partner-links a{color:var(--teal);font-weight:500;text-decoration-thickness:1px;text-underline-offset:3px;}
 
     /* ---- Emplacements image (a remplacer) ---- */
     .ws-fig{margin:clamp(1rem,2.5vw,1.7rem) auto;max-width:880px;padding:0 24px;}
@@ -164,6 +168,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     }
   </style>
 
+  <div data-lang="fr">
   <!-- ===================== HERO ===================== -->
   <header class="ws-hero ws-reveal">
     <svg class="ws-mark" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -196,7 +201,10 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     <div class="ws-in">
       <h2>Comprendre les refuges d’eau froide</h2>
       <p>Le napperon WaterShade présente, en un coup d’œil, les refuges d’eau froide, les enjeux liés au réchauffement de l’eau et les gestes qui contribuent à les protéger.</p>
-      <a class="ws-document-link" href="{{ '/assets/docs/watershade-napperon-2025.pdf' | relative_url }}" target="_blank" rel="noopener">Consulter le napperon WaterShade (PDF)</a>
+      <div class="ws-document-links">
+        <a class="ws-document-link" href="{{ '/assets/docs/watershade-napperon-2025.pdf' | relative_url }}" target="_blank" rel="noopener">Consulter le napperon WaterShade (PDF)</a>
+        <a class="ws-document-link ws-document-link--secondary" href="{{ '/resources/research/' | relative_url }}">Voir la documentation des projets</a>
+      </div>
     </div>
   </section>
 
@@ -277,25 +285,33 @@ card_alt_en: Restigouche River bordered by riparian vegetation
           <span class="soon">Des décisions informées par le terrain</span>
         </div>
       </div>
+      <p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Découvrir Garde-la frette! de l’OBVMR</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Découvrir le projet Thermal Refuge de GINU</a></p>
     </div>
   </section>
 
-
-  <!-- ===================== NOTE SENSIBILITE ===================== -->
-  <section class="ws-reveal">
-    <div class="ws-in">
-      <div class="ws-note">
-        <p>Par souci de conservation, l’emplacement précis de certains refuges n’est pas diffusé publiquement. Les cartes et images présentées ici restent volontairement générales.</p>
-      </div>
-    </div>
-  </section>
 
   <!-- ===================== CLOTURE ===================== -->
   <section class="ws-reveal">
     <div class="ws-in ws-close">
       <h2>Une stratégie qui s’adapte et se construit dans le temps</h2>
-      <p>La stratégie de gestion et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant. Les emplacements précis de certains refuges demeurent confidentiels afin de protéger les poissons qui y trouvent refuge.</p>
+      <p>La stratégie de gestion et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant.</p>
     </div>
   </section>
+  </div>
 
+  <div data-lang="en">
+  <header class="ws-hero ws-reveal"><svg class="ws-mark" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 12c10-8 18 8 28 0s18 8 28 0 18 8 20 6"/><path d="M2 24c10-8 18 8 28 0s18 8 28 0 18 8 20 6"/></svg><p class="ws-eyebrow">Strategic project</p><h1>WaterShade</h1><p class="ws-lead">Protecting cold-water refuges in the Restigouche River watershed.</p><p class="intro">When the river warms in summer, Atlantic salmon seek naturally cooler areas to reduce thermal stress. WaterShade is a watershed-scale strategy that brings together protection, refuge enhancement, stewardship and research to sustain these essential habitats over time.</p></header>
+  <section class="ws-reveal"><div class="ws-in"><h2>Warmer summers, a river under pressure</h2><p>Summer temperatures in the Restigouche have risen, especially over the last decade. During hot, low-flow periods, some parts of the river become difficult for Atlantic salmon, a cold-water fish, to tolerate.</p><p>The clearest signal is the number of thermal-stress days for adult salmon. Between 2003 and 2017, there were always <span class="num">fewer than 15</span> per summer. In 2018, 2020 and 2021, that number <span class="heat">exceeded 30</span>.</p></div></section>
+  <figure class="ws-fig ws-reveal"><img src="{{ '/assets/img/watershade/watershade1.webp' | relative_url }}" alt="Shaded reach of the Restigouche River"><figcaption>A healthy river and wooded banks: the first line of defence for cold-water refuges.</figcaption></figure>
+  <section class="ws-reveal"><div class="ws-in"><h2>Understanding cold-water refuges</h2><p>The WaterShade placemat gives an at-a-glance overview of cold-water refuges, water-warming pressures and the actions that help protect them.</p><div class="ws-document-links"><a class="ws-document-link" href="{{ '/assets/docs/watershade-napperon-2025.pdf' | relative_url }}" target="_blank" rel="noopener">View the WaterShade placemat (PDF)</a><a class="ws-document-link ws-document-link--secondary" href="{{ '/resources/research/' | relative_url }}">View project documentation</a></div></div></section>
+  <section class="ws-reveal"><div class="ws-in"><h2>Four pillars for watershed-scale action</h2><p>The WaterShade management strategy and implementation plan organize work around four complementary pillars.</p><ol class="ws-steps">
+    <li><div class="ws-step-media"><span class="n">01</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-protection.jpg' | relative_url }}" alt="Confluence pre-selection map for cold-water refuge protection" loading="lazy"></div><div><h3>Protect refuges and their drainage areas</h3><p>Map, characterize and prioritize cold-water refuges, then guide protection of upstream watercourses, riparian areas and land uses that support their function.</p></div></li>
+    <li><div class="ws-step-media"><span class="n">02</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-enhancement.jpg' | relative_url }}" alt="Field test to enhance a cold-water refuge" loading="lazy"></div><div><h3>Enhance and restore targeted habitats</h3><p>Where conditions are suitable, design site-specific measures to strengthen cold-water inputs, riparian areas and habitat quality, with the necessary approvals.</p></div></li>
+    <li><div class="ws-step-media"><span class="n">03</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-stewardship.jpg' | relative_url }}" alt="Cold-water refuge research supporting stewardship" loading="lazy"></div><div><h3>Advance stewardship and knowledge sharing</h3><p>Work with communities, landowners, land users and governments to encourage practices that protect refuges over the long term.</p></div></li>
+    <li><div class="ws-step-media"><span class="n">04</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-research.png' | relative_url }}" alt="LiDAR data used for applied research" loading="lazy"></div><div><h3>Advance applied research</h3><p>Combine thermal imagery, LiDAR, temperature monitoring, drones and field validation to better understand thermal regimes and guide future decisions.</p></div></li>
+  </ol></div></section>
+  <section class="ws-reveal"><div class="ws-in"><h2>A watershed-scale strategy</h2><p>The Restigouche watershed covers about <span class="num">12,800 km²</span>, shared between New Brunswick and Quebec. WaterShade focuses on the New Brunswick portion, which is largely forested.</p><p>This work builds on a large-scale inventory: nearly <span class="num">862 km</span> of river were surveyed with optical and thermal imagery, enabling the classification of <span class="num">1,825 thermal anomalies</span> across the watershed. The approach aims to identify about <strong>30 drainage basins</strong> for protection or restoration, including <strong>five priority sites</strong>.</p></div></section>
+  <section class="ws-reveal"><div class="ws-in"><h2>A partnership-driven approach</h2><p>WaterShade is developed by the Restigouche River Watershed Management Council, the Gespe’gewa’gi Institute of Natural Understanding (GINU), and LeBlanc MultiRessources. This working team brings together local knowledge, scientific expertise and implementation experience.</p><div class="ws-sites"><div class="ws-site"><h3>Science, data and coordination</h3><p>The project benefits from scientific support from the University of New Brunswick and INRS – Centre Eau Terre Environnement, as well as collaboration with the Organisme de bassin versant Matapédia-Restigouche.</p><span class="soon">A watershed-scale approach</span></div><div class="ws-site"><h3>On-the-ground application</h3><p>Collaboration with New Brunswick’s Department of Natural Resources and Energy Development helps connect data, management practices and cold-water refuge protection.</p><span class="soon">Decisions informed by the field</span></div></div><p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Explore OBVMR’s Garde-la frette! page</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Explore GINU’s Thermal Refuge project</a></p></div></section>
+  <section class="ws-reveal"><div class="ws-in ws-close"><h2>A strategy that adapts and evolves over time</h2><p>The management strategy and implementation plan provide a shared starting point. WaterShade evolves with new data, field results, partner knowledge and changing conditions across the watershed.</p></div></section>
+  </div>
 </article>
