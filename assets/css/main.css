@@ -1890,6 +1890,13 @@ a.btn-primary {
 }
 .project-button:hover,
 .project-button:focus { background: var(--moss); outline: none; }
+.project-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+.project-button-row .project-button { margin-top: 0; }
 .project-list-page {
   background: var(--paper);
   padding: clamp(34px, 6vw, 76px) 24px clamp(54px, 8vw, 96px);

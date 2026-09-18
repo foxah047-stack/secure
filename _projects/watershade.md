@@ -19,18 +19,22 @@ card_alt_en: Restigouche River bordered by riparian vegetation
 
 sections:
   - type: text
-    kicker_fr: Aperçu du projet
-    kicker_en: Project overview
+    kicker_fr: Contexte du projet
+    kicker_en: Project context
     title_fr: Des étés plus chauds, une rivière sous pression
     title_en: Warmer summers, a river under pressure
     body_fr: |
       Quand la rivière se réchauffe l’été, le saumon atlantique cherche des zones naturellement plus fraîches pour réduire son stress thermique. Pendant les périodes de chaleur et de faible débit, certaines sections de la Restigouche deviennent difficiles à supporter pour ce poisson d’eau froide.
 
       Les changements climatiques et l’utilisation du territoire influencent ensemble l’hétérogénéité de la température de l’eau. La revue de littérature WaterShade souligne notamment le rôle de la foresterie, du couvert riverain, des routes, du drainage et des apports d’eau souterraine dans la qualité thermique des cours d’eau.
+
+      Le graphique présente l’évolution de la température maximale de l’eau dans divers tributaires de la Restigouche.
     body_en: |
       When the river warms in summer, Atlantic salmon seek naturally cooler areas to reduce thermal stress. During hot, low-flow periods, some parts of the Restigouche become difficult for this cold-water fish to tolerate.
 
       Climate change and land use together influence water-temperature heterogeneity. The WaterShade literature review highlights the roles of forestry, riparian cover, roads, drainage and groundwater inputs in the thermal quality of watercourses.
+
+      The chart shows changes in maximum water temperature across several Restigouche tributaries.
     image_show: true
     image_fit: contain
     image: /assets/img/watershade/watershade-science-forum-temperature-trend.jpg
@@ -45,11 +49,11 @@ sections:
     title_fr: Comprendre les refuges d’eau froide
     title_en: Understanding cold-water refuges
     body_fr: |
-      Le napperon WaterShade présente, en un coup d’œil, les refuges d’eau froide, les enjeux liés au réchauffement de l’eau et les gestes qui contribuent à les protéger.
+      Le napperon Garde-la-frette! présente, en un coup d’œil, les refuges d’eau froide, les enjeux liés au réchauffement de l’eau et les gestes qui contribuent à les protéger.
 
       [Voir la documentation WaterShade](/resources/research/) pour consulter le napperon, la revue de littérature et les autres documents de référence du projet.
     body_en: |
-      The WaterShade placemat gives an at-a-glance overview of cold-water refuges, water-warming pressures and the actions that help protect them.
+      The Garde-la-frette! placemat gives an at-a-glance overview of cold-water refuges, water-warming pressures and the actions that help protect them.
 
       [View WaterShade documentation](/resources/research/) to consult the placemat, literature review and other project reference documents.
     image_show: true
@@ -71,9 +75,9 @@ sections:
         title_en: Protect refuges and their drainage areas
         text_fr: Cartographier, caractériser et prioriser les refuges d’eau froide, puis orienter la protection des cours d’eau d’amont, des bandes riveraines et des usages du territoire qui soutiennent leur fonction.
         text_en: Map, characterize and prioritize cold-water refuges, then guide protection of upstream watercourses, riparian areas and land uses that support their function.
-        image: /assets/img/watershade/watershade-pillar-protection.jpg
-        image_alt_fr: Carte de présélection des confluences
-        image_alt_en: Confluence pre-selection map
+        image: /assets/img/watershade/watershade-science-forum-slide-21.jpg
+        image_alt_fr: Illustration présentée à la diapositive 21 du Science Forum 2025
+        image_alt_en: Illustration presented on slide 21 of Science Forum 2025
       - title_fr: Améliorer et restaurer les habitats ciblés
         title_en: Enhance and restore targeted habitats
         text_fr: Lorsque les conditions s’y prêtent, concevoir des mesures adaptées au site pour renforcer les apports d’eau froide, les zones riveraines et la qualité de l’habitat, avec les autorisations nécessaires.
@@ -123,11 +127,11 @@ sections:
         text_fr: Mise à jour des plans, ajout des données de débit, poursuite des suivis thermiques et collaboration avec le ministère afin d’arrimer les actions de gestion.
         text_en: Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-overview.jpg
-    image_alt_fr: Carte des 1 825 anomalies thermiques recensées dans le bassin versant
-    image_alt_en: Map of the 1,825 thermal anomalies identified across the watershed
-    image_caption_fr: La présélection des anomalies thermiques oriente les suivis et les plans de conservation.
-    image_caption_en: Thermal-anomaly pre-selection guides monitoring and conservation plans.
+    image: /assets/img/watershade/watershade-pillar-protection.jpg
+    image_alt_fr: Carte de présélection des confluences pour la protection des refuges d’eau froide
+    image_alt_en: Confluence pre-selection map for cold-water refuge protection
+    image_caption_fr: La cartographie oriente les suivis et les plans de conservation.
+    image_caption_en: Mapping guides monitoring and conservation plans.
 
   - type: text
     kicker_fr: Partenariats
@@ -137,15 +141,14 @@ sections:
     body_fr: |
       WaterShade est conçu spécifiquement pour le Nouveau-Brunswick par le Conseil de gestion du bassin versant de la rivière Restigouche et le Gespe’gewa’gi Institute of Natural Understanding (GINU). LeBlanc MultiRessources agit comme collaborateur et fait partie de l’équipe de travail, en permettant l’articulation sur le terrain lors des campagnes d’acquisition de données.
 
-      Au Québec, [Garde-la frette!](https://www.matapediarestigouche.org/garde-la-frette), chapeauté par l’Organisme de bassin versant Matapédia-Restigouche (OBVMR), complète l’approche de protection des refuges thermiques. Découvrez aussi le projet [Thermal Refuge de GINU](https://ginu.co/?p=2902).
+      Au Québec, Garde-la frette!, chapeauté par l’Organisme de bassin versant Matapédia-Restigouche (OBVMR), complète l’approche de protection des refuges thermiques.
+
+      <div class="project-button-row"><a class="project-button" href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Découvrir Garde-la frette! de l’OBVMR</a><a class="project-button" href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Découvrir le projet Thermal Refuge de GINU</a></div>
     body_en: |
       WaterShade is designed specifically for New Brunswick by the Restigouche River Watershed Management Council and the Gespe’gewa’gi Institute of Natural Understanding (GINU). LeBlanc MultiRessources is a collaborator and part of the working team, helping coordinate field operations during data-acquisition campaigns.
 
-      In Quebec, [Garde-la frette!](https://www.matapediarestigouche.org/garde-la-frette), led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach. Explore GINU’s [Thermal Refuge project](https://ginu.co/?p=2902).
-    image_show: true
-    image: /assets/img/watershade/watershade-science-forum-slide-21.jpg
-    image_alt_fr: Illustration présentée à la diapositive 21 du Science Forum 2025
-    image_alt_en: Illustration presented on slide 21 of Science Forum 2025
-    image_caption_fr: La collaboration renforce les actions sur le territoire.
-    image_caption_en: Collaboration strengthens action across the territory.
+      In Quebec, Garde-la frette!, led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach.
+
+      <div class="project-button-row"><a class="project-button" href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Explore OBVMR’s Garde-la frette! page</a><a class="project-button" href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Explore GINU’s Thermal Refuge project</a></div>
+
 ---
