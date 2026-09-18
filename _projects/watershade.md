@@ -74,7 +74,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
       font-size:clamp(1.7rem,4vw,2.2rem);line-height:1.12;letter-spacing:-.01em;
       margin:0 0 .5rem;color:var(--ink);
     }
-    .ws p{margin:0 0 .55rem;}
+    .ws p{margin:0 0 .4rem;}
     .ws p:last-child{margin-bottom:0;}
     .ws strong{font-weight:500;color:var(--ink);}
     .ws .num{font-weight:500;color:var(--teal);white-space:nowrap;}
@@ -202,6 +202,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     <div class="ws-in">
       <h2>Comprendre les refuges d’eau froide</h2>
       <p>Le napperon WaterShade présente, en un coup d’œil, les refuges d’eau froide, les enjeux liés au réchauffement de l’eau et les gestes qui contribuent à les protéger.</p>
+      <p>D’autres documents du projet, dont la revue de littérature, se trouvent dans la section Documentation WaterShade pour référence.</p>
       <div class="ws-document-links">
         <a class="ws-document-link" href="{{ '/resources/research/' | relative_url }}">Voir la documentation WaterShade</a>
       </div>
@@ -263,7 +264,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
   <section class="ws-reveal">
     <div class="ws-in">
       <h2>Quatre années pour faire progresser WaterShade</h2>
-      <p>De 2023 à 2026, les projets financés par la Fondation pour la conservation du saumon atlantique ont fait évoluer WaterShade d’un cadre de gestion à des plans de conservation adaptés aux sous-bassins versants.</p>
+      <p>De 2023 à 2026, les projets financés par la Fondation pour la conservation du saumon atlantique ont fait évoluer WaterShade d’un cadre de gestion à des plans de conservation adaptés aux sous-bassins versants. Il s’agit d’un projet de longue haleine : la stratégie de gestion et le plan d’implantation offrent une base commune appelée à évoluer avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant.</p>
       <ol class="ws-steps">
         <li><span class="n">2023</span><div><h3>Établir une base commune</h3><p>Élaboration de la stratégie de gestion des refuges thermiques et du plan d’implantation qui oriente la protection, la mise en valeur et la recherche appliquée.</p></div></li>
         <li><span class="n">2024</span><div><h3>Cartographier et caractériser</h3><p>Recensement géomatique par type, présélection des refuges, analyse des bandes riveraines et des aires de drainage, validation terrain, imagerie par drone et suivi de température.</p></div></li>
@@ -284,33 +285,26 @@ card_alt_en: Restigouche River bordered by riparian vegetation
   </section>
 
 
-  <!-- ===================== CLOTURE ===================== -->
-  <section class="ws-reveal">
-    <div class="ws-in ws-close">
-      <h2>Une stratégie qui s’adapte et se construit dans le temps</h2>
-      <p>La stratégie de gestion et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant.</p>
-    </div>
-  </section>
   </div>
 
   <div data-lang="en">
   <header class="ws-hero ws-reveal"><svg class="ws-mark" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 12c10-8 18 8 28 0s18 8 28 0 18 8 20 6"/><path d="M2 24c10-8 18 8 28 0s18 8 28 0 18 8 20 6"/></svg><p class="ws-eyebrow">Strategic project</p><h1>WaterShade</h1><p class="ws-lead">Protecting cold-water refuges in the Restigouche River watershed.</p><p class="intro">When the river warms in summer, Atlantic salmon seek naturally cooler areas to reduce thermal stress. WaterShade is a watershed-scale strategy that brings together protection, refuge enhancement, stewardship and research to sustain these essential habitats over time.</p></header>
   <section class="ws-reveal"><div class="ws-in"><h2>Warmer summers, a river under pressure</h2><p>Summer temperatures in the Restigouche have risen, especially over the last decade. During hot, low-flow periods, some parts of the river become difficult for Atlantic salmon, a cold-water fish, to tolerate.</p><p>The clearest signal is the number of thermal-stress days for adult salmon. Between 2003 and 2017, there were always <span class="num">fewer than 15</span> per summer. In 2018, 2020 and 2021, that number <span class="heat">exceeded 30</span>.</p><p>Climate change and land use together influence water-temperature heterogeneity. The WaterShade literature review highlights the roles of forestry, riparian cover, roads, drainage and groundwater inputs in the thermal quality of watercourses.</p></div></section>
   <figure class="ws-fig ws-reveal"><img src="{{ '/assets/img/watershade/watershade1.webp' | relative_url }}" alt="Shaded reach of the Restigouche River"><figcaption>A healthy river and wooded banks: the first line of defence for cold-water refuges.</figcaption></figure>
-  <section class="ws-reveal"><div class="ws-in"><h2>Understanding cold-water refuges</h2><p>The WaterShade placemat gives an at-a-glance overview of cold-water refuges, water-warming pressures and the actions that help protect them.</p><div class="ws-document-links"><a class="ws-document-link" href="{{ '/resources/research/' | relative_url }}">View WaterShade documentation</a></div></div></section>
+  <section class="ws-reveal"><div class="ws-in"><h2>Understanding cold-water refuges</h2><p>The WaterShade placemat gives an at-a-glance overview of cold-water refuges, water-warming pressures and the actions that help protect them.</p><p>Other project documents, including the literature review, are available in the WaterShade documentation section for reference.</p><div class="ws-document-links"><a class="ws-document-link" href="{{ '/resources/research/' | relative_url }}">View WaterShade documentation</a></div></div></section>
   <section class="ws-reveal"><div class="ws-in"><h2>Four pillars for watershed-scale action</h2><p>The WaterShade management strategy and implementation plan organize work around four complementary pillars.</p><ol class="ws-steps">
     <li><div class="ws-step-media"><span class="n">01</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-protection.jpg' | relative_url }}" alt="Confluence pre-selection map for cold-water refuge protection" loading="lazy"></div><div><h3>Protect refuges and their drainage areas</h3><p>Map, characterize and prioritize cold-water refuges, then guide protection of upstream watercourses, riparian areas and land uses that support their function.</p></div></li>
     <li><div class="ws-step-media"><span class="n">02</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-enhancement.jpg' | relative_url }}" alt="Field test to enhance a cold-water refuge" loading="lazy"></div><div><h3>Enhance and restore targeted habitats</h3><p>Where conditions are suitable, design site-specific measures to strengthen cold-water inputs, riparian areas and habitat quality, with the necessary approvals.</p></div></li>
     <li><div class="ws-step-media"><span class="n">03</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-stewardship.jpg' | relative_url }}" alt="Cold-water refuge research supporting stewardship" loading="lazy"></div><div><h3>Advance stewardship and knowledge sharing</h3><p>Work with communities, landowners, land users and governments to encourage practices that protect refuges over the long term.</p></div></li>
     <li><div class="ws-step-media"><span class="n">04</span><img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-research.png' | relative_url }}" alt="LiDAR data used for applied research" loading="lazy"></div><div><h3>Advance applied research</h3><p>Combine thermal imagery, LiDAR, temperature monitoring, drones and field validation to better understand thermal regimes and guide future decisions.</p></div></li>
   </ol></div></section>
-  <section class="ws-reveal"><div class="ws-in"><h2>Four years of advancing WaterShade</h2><p>From 2023 to 2026, projects funded by the Atlantic Salmon Conservation Foundation have advanced WaterShade from a management framework to sub-watershed-specific conservation plans.</p><ol class="ws-steps">
+  <section class="ws-reveal"><div class="ws-in"><h2>Four years of advancing WaterShade</h2><p>From 2023 to 2026, projects funded by the Atlantic Salmon Conservation Foundation have advanced WaterShade from a management framework to sub-watershed-specific conservation plans. This is long-term work: the management strategy and implementation plan provide a shared foundation that will evolve with new data, field results, partner knowledge and changing conditions across the watershed.</p><ol class="ws-steps">
     <li><span class="n">2023</span><div><h3>Establishing a shared foundation</h3><p>Development of the thermal-refuge management strategy and implementation plan guiding protection, enhancement and applied research.</p></div></li>
     <li><span class="n">2024</span><div><h3>Mapping and characterizing</h3><p>Geospatial inventory by type, refuge pre-selection, riparian-area and drainage-area analysis, field validation, drone imagery and temperature monitoring.</p></div></li>
     <li><span class="n">2025</span><div><h3>Focusing on priority assets</h3><p>Development of conservation plans for selected sub-watersheds, thermal-regime characterization and ongoing data collection to guide interventions.</p></div></li>
     <li><span class="n">2026</span><div><h3>Optimizing conservation plans</h3><p>Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.</p></div></li>
   </ol></div></section>
   <section class="ws-reveal"><div class="ws-in"><h2>A partnership-driven approach</h2><p>WaterShade is designed specifically for New Brunswick by the Restigouche River Watershed Management Council and the Gespe’gewa’gi Institute of Natural Understanding (GINU). LeBlanc MultiRessources is a collaborator and part of the working team, helping coordinate field operations during data-acquisition campaigns.</p><p>In Quebec, Garde-la frette!, led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach by bringing together knowledge and people from across the territory. Together, these initiatives support coherent protection of cold water across the Restigouche watershed.</p><p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Explore OBVMR’s Garde-la frette! page</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Explore GINU’s Thermal Refuge project</a></p></div></section>
-  <section class="ws-reveal"><div class="ws-in ws-close"><h2>A strategy that adapts and evolves over time</h2><p>The management strategy and implementation plan provide a shared starting point. WaterShade evolves with new data, field results, partner knowledge and changing conditions across the watershed.</p></div></section>
+
   </div>
 </article>
