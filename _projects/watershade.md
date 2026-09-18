@@ -32,6 +32,7 @@ sections:
 
       Climate change and land use together influence water-temperature heterogeneity. The WaterShade literature review highlights the roles of forestry, riparian cover, roads, drainage and groundwater inputs in the thermal quality of watercourses.
     image_show: true
+    image_fit: contain
     image: /assets/img/watershade/watershade-science-forum-temperature-trend.jpg
     image_alt_fr: Graphique de l’augmentation de la température de l’eau présenté au Science Forum 2025
     image_alt_en: Water-temperature increase chart presented at Science Forum 2025
@@ -122,11 +123,11 @@ sections:
         text_fr: Mise à jour des plans, ajout des données de débit, poursuite des suivis thermiques et collaboration avec le ministère afin d’arrimer les actions de gestion.
         text_en: Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-references.jpg
-    image_alt_fr: Carte des bandes riveraines présentée au Science Forum 2025
-    image_alt_en: Riparian-buffer map presented at Science Forum 2025
-    image_caption_fr: Les suivis sur le terrain font progresser les plans de conservation.
-    image_caption_en: Field monitoring advances conservation plans.
+    image: /assets/img/watershade/watershade-science-forum-overview.jpg
+    image_alt_fr: Carte des 1 825 anomalies thermiques recensées dans le bassin versant
+    image_alt_en: Map of the 1,825 thermal anomalies identified across the watershed
+    image_caption_fr: La présélection des anomalies thermiques oriente les suivis et les plans de conservation.
+    image_caption_en: Thermal-anomaly pre-selection guides monitoring and conservation plans.
 
   - type: text
     kicker_fr: Partenariats
@@ -142,9 +143,9 @@ sections:
 
       In Quebec, [Garde-la frette!](https://www.matapediarestigouche.org/garde-la-frette), led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach. Explore GINU’s [Thermal Refuge project](https://ginu.co/?p=2902).
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-partnerships.jpg
-    image_alt_fr: Relevé par drone réalisé avec GINU dans le cadre de WaterShade
-    image_alt_en: Drone survey conducted with GINU as part of WaterShade
+    image: /assets/img/watershade/watershade-science-forum-slide-21.jpg
+    image_alt_fr: Illustration présentée à la diapositive 21 du Science Forum 2025
+    image_alt_en: Illustration presented on slide 21 of Science Forum 2025
     image_caption_fr: La collaboration renforce les actions sur le territoire.
     image_caption_en: Collaboration strengthens action across the territory.
 ---

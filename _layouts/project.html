@@ -49,6 +49,7 @@ layout: default
           {% assign body_en = section.body_en | default: body_fr | strip %}
           {% assign has_image = false %}
           {% if section.image_show and section.image %}{% assign has_image = true %}{% endif %}
+          {% assign image_fit = section.image_fit | default: 'cover' | strip %}
           {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_image %}
           <section class="project-section{% if has_image %} project-split-section{% endif %}">
             <div>
@@ -58,7 +59,8 @@ layout: default
               {% if body_en != '' %}<div class="project-richtext" data-lang="en">{{ body_en | markdownify }}</div>{% endif %}
             </div>
             {% if has_image %}
-              {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class='project-side-image' %}
+              {% capture project_image_class %}project-side-image project-side-image--{{ image_fit }}{% endcapture %}
+              {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class=project_image_class %}
             {% endif %}
           </section>
           {% endif %}
