@@ -277,19 +277,8 @@ card_alt_en: Restigouche River bordered by riparian vegetation
   <section class="ws-reveal">
     <div class="ws-in">
       <h2>Une démarche portée par des partenariats</h2>
-      <p>WaterShade est élaboré par le Conseil de gestion du bassin versant de la rivière Restigouche, le Gespe’gewa’gi Institute of Natural Understanding (GINU) et LeBlanc MultiRessources. Cette équipe de travail réunit la connaissance du territoire, l’expertise scientifique et l’expérience de mise en œuvre.</p>
-      <div class="ws-sites">
-        <div class="ws-site">
-          <h3>Science, données et coordination</h3>
-          <p>Le projet bénéficie de l’appui scientifique de l’Université du Nouveau-Brunswick et de l’INRS – Centre Eau Terre Environnement, ainsi que d’une collaboration avec l’Organisme de bassin versant Matapédia-Restigouche.</p>
-          <span class="soon">Une approche à l’échelle du bassin</span>
-        </div>
-        <div class="ws-site">
-          <h3>Application sur le territoire</h3>
-          <p>La collaboration avec le ministère des Ressources naturelles et du Développement de l’énergie du Nouveau-Brunswick aide à relier les données, les pratiques de gestion et la protection des refuges d’eau froide.</p>
-          <span class="soon">Des décisions informées par le terrain</span>
-        </div>
-      </div>
+      <p>WaterShade est conçu spécifiquement pour le Nouveau-Brunswick par le Conseil de gestion du bassin versant de la rivière Restigouche et le Gespe’gewa’gi Institute of Natural Understanding (GINU). LeBlanc MultiRessources agit comme collaborateur et fait partie de l’équipe de travail.</p>
+      <p>Au Québec, le projet Garde-la frette!, chapeauté par l’Organisme de bassin versant Matapédia-Restigouche (OBVMR), complète l’approche de protection des refuges thermiques en mobilisant les connaissances et les acteurs du territoire. Ensemble, ces initiatives soutiennent une protection cohérente des eaux froides à l’échelle du bassin versant de la Restigouche.</p>
       <p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Découvrir Garde-la frette! de l’OBVMR</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Découvrir le projet Thermal Refuge de GINU</a></p>
     </div>
   </section>
@@ -321,7 +310,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     <li><span class="n">2025</span><div><h3>Focusing on priority assets</h3><p>Development of conservation plans for selected sub-watersheds, thermal-regime characterization and ongoing data collection to guide interventions.</p></div></li>
     <li><span class="n">2026</span><div><h3>Optimizing conservation plans</h3><p>Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.</p></div></li>
   </ol></div></section>
-  <section class="ws-reveal"><div class="ws-in"><h2>A partnership-driven approach</h2><p>WaterShade is developed by the Restigouche River Watershed Management Council, the Gespe’gewa’gi Institute of Natural Understanding (GINU), and LeBlanc MultiRessources. This working team brings together local knowledge, scientific expertise and implementation experience.</p><div class="ws-sites"><div class="ws-site"><h3>Science, data and coordination</h3><p>The project benefits from scientific support from the University of New Brunswick and INRS – Centre Eau Terre Environnement, as well as collaboration with the Organisme de bassin versant Matapédia-Restigouche.</p><span class="soon">A watershed-scale approach</span></div><div class="ws-site"><h3>On-the-ground application</h3><p>Collaboration with New Brunswick’s Department of Natural Resources and Energy Development helps connect data, management practices and cold-water refuge protection.</p><span class="soon">Decisions informed by the field</span></div></div><p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Explore OBVMR’s Garde-la frette! page</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Explore GINU’s Thermal Refuge project</a></p></div></section>
+  <section class="ws-reveal"><div class="ws-in"><h2>A partnership-driven approach</h2><p>WaterShade is designed specifically for New Brunswick by the Restigouche River Watershed Management Council and the Gespe’gewa’gi Institute of Natural Understanding (GINU). LeBlanc MultiRessources is a collaborator and part of the working team.</p><p>In Quebec, Garde-la frette!, led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach by bringing together knowledge and people from across the territory. Together, these initiatives support coherent protection of cold water across the Restigouche watershed.</p><p class="ws-partner-links"><a href="https://www.matapediarestigouche.org/garde-la-frette" target="_blank" rel="noopener">Explore OBVMR’s Garde-la frette! page</a><a href="https://ginu.co/?p=2902" target="_blank" rel="noopener">Explore GINU’s Thermal Refuge project</a></p></div></section>
   <section class="ws-reveal"><div class="ws-in ws-close"><h2>A strategy that adapts and evolves over time</h2><p>The management strategy and implementation plan provide a shared starting point. WaterShade evolves with new data, field results, partner knowledge and changing conditions across the watershed.</p></div></section>
   </div>
 </article>
