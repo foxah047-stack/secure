@@ -32,11 +32,11 @@ sections:
 
       Climate change and land use together influence water-temperature heterogeneity. The WaterShade literature review highlights the roles of forestry, riparian cover, roads, drainage and groundwater inputs in the thermal quality of watercourses.
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-overview.jpg
-    image_alt_fr: Analyse cartographique des refuges d’eau froide présentée au Science Forum 2025
-    image_alt_en: Cold-water refuge mapping analysis presented at Science Forum 2025
-    image_caption_fr: Les données et la cartographie orientent la protection des refuges.
-    image_caption_en: Data and mapping guide refuge protection.
+    image: /assets/img/watershade/watershade-science-forum-temperature-trend.jpg
+    image_alt_fr: Graphique de l’augmentation de la température de l’eau présenté au Science Forum 2025
+    image_alt_en: Water-temperature increase chart presented at Science Forum 2025
+    image_caption_fr: Les données de température montrent l’évolution des conditions thermiques.
+    image_caption_en: Temperature data show changing thermal conditions.
 
   - type: text
     kicker_fr: Références du projet
@@ -52,9 +52,9 @@ sections:
 
       [View WaterShade documentation](/resources/research/) to consult the placemat, literature review and other project reference documents.
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-references.jpg
-    image_alt_fr: Carte des bandes riveraines présentée au Science Forum 2025
-    image_alt_en: Riparian-buffer map presented at Science Forum 2025
+    image: /assets/img/watershade/watershade-pillar-research.png
+    image_alt_fr: Données LiDAR utilisées pour la recherche appliquée
+    image_alt_en: LiDAR data used for applied research
     image_caption_fr: La recherche appliquée appuie les décisions de gestion.
     image_caption_en: Applied research supports management decisions.
 
@@ -91,9 +91,9 @@ sections:
         title_en: Advance applied research
         text_fr: Combiner imagerie thermique, LiDAR, suivis de température, drones et validation terrain pour mieux comprendre les régimes thermiques et guider les décisions futures.
         text_en: Combine thermal imagery, LiDAR, temperature monitoring, drones and field validation to better understand thermal regimes and guide future decisions.
-        image: /assets/img/watershade/watershade-pillar-research.png
-        image_alt_fr: Données LiDAR utilisées pour la recherche appliquée
-        image_alt_en: LiDAR data used for applied research
+        image: /assets/img/watershade/watershade-science-forum-partnerships.jpg
+        image_alt_fr: Relevé par drone réalisé avec GINU dans le cadre de WaterShade
+        image_alt_en: Drone survey conducted with GINU as part of WaterShade
 
   - type: steps
     kicker_fr: Parcours du projet
@@ -122,9 +122,9 @@ sections:
         text_fr: Mise à jour des plans, ajout des données de débit, poursuite des suivis thermiques et collaboration avec le ministère afin d’arrimer les actions de gestion.
         text_en: Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.
     image_show: true
-    image: /assets/img/watershade/watershade-science-forum-milestones.jpg
-    image_alt_fr: Équipement de suivi de la température déployé dans le cadre de WaterShade
-    image_alt_en: Temperature-monitoring equipment deployed as part of WaterShade
+    image: /assets/img/watershade/watershade-science-forum-references.jpg
+    image_alt_fr: Carte des bandes riveraines présentée au Science Forum 2025
+    image_alt_en: Riparian-buffer map presented at Science Forum 2025
     image_caption_fr: Les suivis sur le terrain font progresser les plans de conservation.
     image_caption_en: Field monitoring advances conservation plans.
 
