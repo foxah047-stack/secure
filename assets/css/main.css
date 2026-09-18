@@ -1792,7 +1792,14 @@ a.btn-primary {
 .project-step-card {
   background: var(--cream);
   border-top: 3px solid var(--river);
-  padding: 20px;
+  overflow: hidden;
+}
+.project-step-card-content { padding: 20px; }
+.project-step-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 .project-step-card span {
   color: var(--river);
@@ -1932,7 +1939,7 @@ a.btn-primary {
   .project-note-box,
   .project-empty-state { padding: 22px; }
   .project-richtext { font-size: 16px; line-height: 1.68; }
-  .project-step-card,
+  .project-step-card-content,
   .project-stat-card,
   .project-related-card,
   .project-list-card-body { padding: 18px; }

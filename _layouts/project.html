@@ -87,12 +87,18 @@ layout: default
                 {% assign step_title_en = step.title_en | default: step_title_fr | strip %}
                 {% assign step_text_fr = step.text_fr | default: '' | strip %}
                 {% assign step_text_en = step.text_en | default: step_text_fr | strip %}
+                {% assign step_image = step.image | default: '' | strip %}
+                {% assign step_image_alt_fr = step.image_alt_fr | default: step_title_fr | strip %}
+                {% assign step_image_alt_en = step.image_alt_en | default: step_image_alt_fr | strip %}
                 {% if step_title_fr != '' or step_text_fr != '' %}
                 <div class="project-step-card">
-                  <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
-                  {% if step_title_fr != '' %}<h3><span data-lang="fr">{{ step_title_fr }}</span><span data-lang="en">{{ step_title_en }}</span></h3>{% endif %}
-                  {% if step_text_fr != '' %}<p data-lang="fr">{{ step_text_fr }}</p>{% endif %}
-                  {% if step_text_en != '' %}<p data-lang="en">{{ step_text_en }}</p>{% endif %}
+                  {% if step_image != '' %}<img class="project-step-image" src="{{ step_image | relative_url }}" alt="{{ step_image_alt_en | escape }}" data-i18n-alt data-alt-en="{{ step_image_alt_en | escape }}" data-alt-fr="{{ step_image_alt_fr | escape }}" loading="lazy">{% endif %}
+                  <div class="project-step-card-content">
+                    <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+                    {% if step_title_fr != '' %}<h3><span data-lang="fr">{{ step_title_fr }}</span><span data-lang="en">{{ step_title_en }}</span></h3>{% endif %}
+                    {% if step_text_fr != '' %}<p data-lang="fr">{{ step_text_fr }}</p>{% endif %}
+                    {% if step_text_en != '' %}<p data-lang="en">{{ step_text_en }}</p>{% endif %}
+                  </div>
                 </div>
                 {% endif %}
               {% endfor %}
