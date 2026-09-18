@@ -96,6 +96,10 @@ card_alt_en: Restigouche River bordered by riparian vegetation
       margin:0 0 .15rem;color:var(--ink);
     }
     .ws-steps p{margin:0;color:var(--muted);font-size:1rem;}
+    .ws-step-media{display:grid;gap:.45rem;align-content:start;}
+    .ws-step-photo{display:block;width:120px;height:86px;object-fit:cover;border:1px solid var(--rule);border-radius:3px;}
+    .ws-document-link{display:inline-block;margin-top:.25rem;padding:.6rem .85rem;background:var(--teal);color:#fff;text-decoration:none;font-weight:500;border-radius:3px;}
+    .ws-document-link:hover{background:var(--river);}
 
     /* ---- Emplacements image (a remplacer) ---- */
     .ws-fig{margin:clamp(1rem,2.5vw,1.7rem) auto;max-width:880px;padding:0 24px;}
@@ -144,8 +148,9 @@ card_alt_en: Restigouche River bordered by riparian vegetation
 
     @media (max-width:620px){
       .ws-sites{grid-template-columns:1fr;}
-      .ws-steps li{grid-template-columns:1fr;gap:.15rem;}
+      .ws-steps li{grid-template-columns:1fr;gap:.35rem;}
       .ws-steps .n{font-size:1.6rem;}
+      .ws-step-photo{width:100%;height:160px;}
     }
 
     /* ---- Apparition douce au chargement ---- */
@@ -186,12 +191,12 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     <figcaption>Une rivière en santé et des berges boisées : la première ligne de défense des refuges d’eau froide.</figcaption>
   </figure>
 
-  <!-- ===================== NOTION CLE ===================== -->
+  <!-- ===================== NAPPERON ===================== -->
   <section class="ws-reveal">
     <div class="ws-in">
-      <h2>Qu’est-ce qu’un refuge d’eau froide?</h2>
-      <p>Un refuge d’eau froide est une zone d’une rivière où l’eau reste naturellement plus fraîche que le courant principal. Il peut être alimenté par une source souterraine, un petit tributaire froid, un chenal latéral ombragé ou une résurgence.</p>
-      <p>Lorsque l’eau se réchauffe, le saumon et l’omble s’y rassemblent pour réduire leur stress thermique. Protéger un refuge, c’est donc aussi protéger ce qui l’alimente : les petits cours d’eau, les berges boisées et les milieux humides situés en amont.</p>
+      <h2>Comprendre les refuges d’eau froide</h2>
+      <p>Le napperon WaterShade présente, en un coup d’œil, les refuges d’eau froide, les enjeux liés au réchauffement de l’eau et les gestes qui contribuent à les protéger.</p>
+      <a class="ws-document-link" href="{{ '/assets/docs/watershade-napperon-2025.pdf' | relative_url }}" target="_blank" rel="noopener">Consulter le napperon WaterShade (PDF)</a>
     </div>
   </section>
 
@@ -199,31 +204,43 @@ card_alt_en: Restigouche River bordered by riparian vegetation
   <section class="ws-reveal">
     <div class="ws-in">
       <h2>Quatre piliers pour agir à l’échelle du bassin versant</h2>
-      <p>La politique WaterShade et son plan d’implantation organisent les interventions autour de quatre piliers complémentaires.</p>
+      <p>La stratégie de gestion WaterShade et son plan d’implantation organisent les interventions autour de quatre piliers complémentaires.</p>
       <ol class="ws-steps">
         <li>
-          <span class="n">01</span>
+          <div class="ws-step-media">
+            <span class="n">01</span>
+            <img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-protection.jpg' | relative_url }}" alt="Carte de présélection de confluences pour la protection des refuges d’eau froide" loading="lazy">
+          </div>
           <div>
             <h3>Protéger les refuges et leurs bassins de drainage</h3>
             <p>Cartographier, caractériser et prioriser les refuges d’eau froide, puis orienter la protection des cours d’eau d’amont, des bandes riveraines et des usages du territoire qui soutiennent leur fonction.</p>
           </div>
         </li>
         <li>
-          <span class="n">02</span>
+          <div class="ws-step-media">
+            <span class="n">02</span>
+            <img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-enhancement.jpg' | relative_url }}" alt="Essai terrain pour améliorer un refuge d’eau froide" loading="lazy">
+          </div>
           <div>
             <h3>Améliorer et restaurer les habitats ciblés</h3>
             <p>Lorsque les conditions s’y prêtent, concevoir des mesures adaptées au site pour renforcer les apports d’eau froide, les zones riveraines et la qualité de l’habitat, avec les autorisations nécessaires.</p>
           </div>
         </li>
         <li>
-          <span class="n">03</span>
+          <div class="ws-step-media">
+            <span class="n">03</span>
+            <img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-stewardship.jpg' | relative_url }}" alt="Recherche sur les refuges d’eau froide au soutien de l’intendance" loading="lazy">
+          </div>
           <div>
             <h3>Favoriser l’intendance et le partage des connaissances</h3>
             <p>Travailler avec les collectivités, les propriétaires, les utilisateurs du territoire et les gouvernements afin d’encourager des pratiques qui protègent les refuges à long terme.</p>
           </div>
         </li>
         <li>
-          <span class="n">04</span>
+          <div class="ws-step-media">
+            <span class="n">04</span>
+            <img class="ws-step-photo" src="{{ '/assets/img/watershade/watershade-pillar-research.png' | relative_url }}" alt="Données LiDAR utilisées pour la recherche appliquée" loading="lazy">
+          </div>
           <div>
             <h3>Faire progresser la recherche appliquée</h3>
             <p>Combiner imagerie thermique, LiDAR, suivis de température, drones et validation terrain pour mieux comprendre les régimes thermiques et guider les décisions futures.</p>
@@ -233,11 +250,6 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     </div>
   </section>
 
-  <!-- ===================== IMAGE 2 ===================== -->
-  <figure class="ws-fig ws-reveal">
-    <img src="{{ '/assets/img/watershade/watershade2.webp' | relative_url }}" alt="Vue d'ensemble du bassin versant de la Restigouche">
-    <figcaption>Le bassin versant s’étend sur des milliers de kilomètres carrés, de part et d’autre de la frontière.</figcaption>
-  </figure>
 
   <!-- ===================== L'ECHELLE ===================== -->
   <section class="ws-reveal">
@@ -268,11 +280,6 @@ card_alt_en: Restigouche River bordered by riparian vegetation
     </div>
   </section>
 
-  <!-- ===================== IMAGE 3 ===================== -->
-  <figure class="ws-fig ws-reveal">
-    <img src="{{ '/assets/img/watershade/watershade3.webp' | relative_url }}" alt="Travaux de terrain le long d'un cours d'eau">
-    <figcaption>Sur le terrain, la protection des refuges passe par des gestes concrets et un suivi continu.</figcaption>
-  </figure>
 
   <!-- ===================== NOTE SENSIBILITE ===================== -->
   <section class="ws-reveal">
@@ -287,7 +294,7 @@ card_alt_en: Restigouche River bordered by riparian vegetation
   <section class="ws-reveal">
     <div class="ws-in ws-close">
       <h2>Une stratégie qui s’adapte et se construit dans le temps</h2>
-      <p>La politique et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant. Les emplacements précis de certains refuges demeurent confidentiels afin de protéger les poissons qui y trouvent refuge.</p>
+      <p>La stratégie de gestion et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant. Les emplacements précis de certains refuges demeurent confidentiels afin de protéger les poissons qui y trouvent refuge.</p>
     </div>
   </section>
 
