@@ -10,6 +10,9 @@ title_en: WaterShade
 title_fr: WaterShade
 subtitle_en: A watershed-scale strategy to protect cold-water refuges for Atlantic salmon in the Restigouche River watershed.
 subtitle_fr: Une stratégie à l’échelle du bassin versant pour protéger les refuges d’eau froide du saumon atlantique.
+card_image: /assets/img/watershade/watershade1.webp
+card_alt_fr: Rivière Restigouche bordée d'une végétation riveraine
+card_alt_en: Restigouche River bordered by riparian vegetation
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -165,7 +168,7 @@ subtitle_fr: Une stratégie à l’échelle du bassin versant pour protéger les
     <p class="ws-eyebrow">Projet stratégique</p>
     <h1>WaterShade</h1>
     <p class="ws-lead">Protéger les refuges d’eau froide du bassin versant de la Restigouche.</p>
-    <p class="intro">Quand la rivière se réchauffe l’été, le saumon atlantique cherche des zones naturellement plus fraîches pour récupérer. WaterShade est une stratégie à long terme qui vise à repérer ces refuges d’eau froide, à les protéger et, là où c’est nécessaire, à les restaurer.</p>
+    <p class="intro">Quand la rivière se réchauffe l’été, le saumon atlantique cherche des zones naturellement plus fraîches pour réduire son stress thermique. WaterShade est une stratégie de bassin versant qui réunit la protection, l’amélioration des refuges, l’intendance et la recherche pour préserver ces habitats essentiels dans la durée.</p>
   </header>
 
   <!-- ===================== LE PROBLEME ===================== -->
@@ -192,38 +195,38 @@ subtitle_fr: Une stratégie à l’échelle du bassin versant pour protéger les
     </div>
   </section>
 
-  <!-- ===================== LA DEMARCHE ===================== -->
+  <!-- ===================== LES QUATRE PILIERS ===================== -->
   <section class="ws-reveal">
     <div class="ws-in">
-      <h2>De la donnée terrain à l’action</h2>
-      <p>WaterShade suit une même démarche, du repérage jusqu’à la protection sur le terrain.</p>
+      <h2>Quatre piliers pour agir à l’échelle du bassin versant</h2>
+      <p>La politique WaterShade et son plan d’implantation organisent les interventions autour de quatre piliers complémentaires.</p>
       <ol class="ws-steps">
         <li>
           <span class="n">01</span>
           <div>
-            <h3>Cartographier</h3>
-            <p>Repérer les refuges d’eau froide et les secteurs les plus sensibles au réchauffement, à partir d’imagerie thermique et de données du territoire.</p>
+            <h3>Protéger les refuges et leurs bassins de drainage</h3>
+            <p>Cartographier, caractériser et prioriser les refuges d’eau froide, puis orienter la protection des cours d’eau d’amont, des bandes riveraines et des usages du territoire qui soutiennent leur fonction.</p>
           </div>
         </li>
         <li>
           <span class="n">02</span>
           <div>
-            <h3>Prioriser</h3>
-            <p>Choisir les secteurs où la protection ou la restauration apportera le plus grand bénéfice pour l’habitat.</p>
+            <h3>Améliorer et restaurer les habitats ciblés</h3>
+            <p>Lorsque les conditions s’y prêtent, concevoir des mesures adaptées au site pour renforcer les apports d’eau froide, les zones riveraines et la qualité de l’habitat, avec les autorisations nécessaires.</p>
           </div>
         </li>
         <li>
           <span class="n">03</span>
           <div>
-            <h3>Valider</h3>
-            <p>Vérifier les sites sur le terrain : suivis de température, observations et relevés par drone.</p>
+            <h3>Favoriser l’intendance et le partage des connaissances</h3>
+            <p>Travailler avec les collectivités, les propriétaires, les utilisateurs du territoire et les gouvernements afin d’encourager des pratiques qui protègent les refuges à long terme.</p>
           </div>
         </li>
         <li>
           <span class="n">04</span>
           <div>
-            <h3>Agir</h3>
-            <p>Protéger les berges, restaurer les sites ciblés et suivre les résultats dans le temps.</p>
+            <h3>Faire progresser la recherche appliquée</h3>
+            <p>Combiner imagerie thermique, LiDAR, suivis de température, drones et validation terrain pour mieux comprendre les régimes thermiques et guider les décisions futures.</p>
           </div>
         </li>
       </ol>
@@ -245,20 +248,21 @@ subtitle_fr: Une stratégie à l’échelle du bassin versant pour protéger les
     </div>
   </section>
 
-  <!-- ===================== SITES ===================== -->
+  <!-- ===================== PARTENARIATS ===================== -->
   <section class="ws-reveal">
     <div class="ws-in">
-      <h2>Des secteurs au cœur du projet</h2>
+      <h2>Une démarche portée par des partenariats</h2>
+      <p>WaterShade est élaboré par le Conseil de gestion du bassin versant de la rivière Restigouche, le Gespe’gewa’gi Institute of Natural Understanding (GINU) et LeBlanc MultiRessources. Cette équipe de travail réunit la connaissance du territoire, l’expertise scientifique et l’expérience de mise en œuvre.</p>
       <div class="ws-sites">
         <div class="ws-site">
-          <h3>Secteurs prioritaires</h3>
-          <p>Certains secteurs font l’objet d’un examen plus poussé parce qu’ils peuvent jouer un rôle important lors des périodes de chaleur. Les informations détaillées seront publiées seulement après révision interne.</p>
-          <span class="soon">Détails en révision interne</span>
+          <h3>Science, données et coordination</h3>
+          <p>Le projet bénéficie de l’appui scientifique de l’Université du Nouveau-Brunswick et de l’INRS – Centre Eau Terre Environnement, ainsi que d’une collaboration avec l’Organisme de bassin versant Matapédia-Restigouche.</p>
+          <span class="soon">Une approche à l’échelle du bassin</span>
         </div>
         <div class="ws-site">
-          <h3>Travaux de terrain</h3>
-          <p>Les actions peuvent comprendre le suivi de température, la validation terrain, la protection de bandes riveraines et la restauration de conditions favorables, selon les approbations et les priorités établies.</p>
-          <span class="soon">Pages futures à approuver</span>
+          <h3>Application sur le territoire</h3>
+          <p>La collaboration avec le ministère des Ressources naturelles et du Développement de l’énergie du Nouveau-Brunswick aide à relier les données, les pratiques de gestion et la protection des refuges d’eau froide.</p>
+          <span class="soon">Des décisions informées par le terrain</span>
         </div>
       </div>
     </div>
@@ -282,8 +286,8 @@ subtitle_fr: Une stratégie à l’échelle du bassin versant pour protéger les
   <!-- ===================== CLOTURE ===================== -->
   <section class="ws-reveal">
     <div class="ws-in ws-close">
-      <h2>Une stratégie appelée à évoluer</h2>
-      <p>Amorcé en 2023, WaterShade se poursuit par l’analyse et le travail terrain, puis par la sélection des sites prioritaires à partir de 2025 et un suivi adaptatif dans les années suivantes. Les données, les méthodes et les priorités continueront d’être mises à jour au fil du projet.</p>
+      <h2>Une stratégie qui s’adapte et se construit dans le temps</h2>
+      <p>La politique et le plan d’implantation constituent une première base commune. WaterShade évolue avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant. Les emplacements précis de certains refuges demeurent confidentiels afin de protéger les poissons qui y trouvent refuge.</p>
     </div>
   </section>
 
