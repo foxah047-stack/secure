@@ -32,9 +32,9 @@ sections:
 
       Climate change and land use together influence water-temperature heterogeneity. The WaterShade literature review highlights the roles of forestry, riparian cover, roads, drainage and groundwater inputs in the thermal quality of watercourses.
     image_show: true
-    image: /assets/img/watershade/watershade-pillar-protection.jpg
-    image_alt_fr: Carte de présélection des confluences pour la protection des refuges d’eau froide
-    image_alt_en: Confluence pre-selection map for cold-water refuge protection
+    image: /assets/img/watershade/watershade-science-forum-overview.jpg
+    image_alt_fr: Analyse cartographique des refuges d’eau froide présentée au Science Forum 2025
+    image_alt_en: Cold-water refuge mapping analysis presented at Science Forum 2025
     image_caption_fr: Les données et la cartographie orientent la protection des refuges.
     image_caption_en: Data and mapping guide refuge protection.
 
@@ -52,9 +52,9 @@ sections:
 
       [View WaterShade documentation](/resources/research/) to consult the placemat, literature review and other project reference documents.
     image_show: true
-    image: /assets/img/watershade/watershade-pillar-research.png
-    image_alt_fr: Données LiDAR utilisées pour la recherche appliquée
-    image_alt_en: LiDAR data used for applied research
+    image: /assets/img/watershade/watershade-science-forum-references.jpg
+    image_alt_fr: Carte des bandes riveraines présentée au Science Forum 2025
+    image_alt_en: Riparian-buffer map presented at Science Forum 2025
     image_caption_fr: La recherche appliquée appuie les décisions de gestion.
     image_caption_en: Applied research supports management decisions.
 
@@ -95,25 +95,38 @@ sections:
         image_alt_fr: Données LiDAR utilisées pour la recherche appliquée
         image_alt_en: LiDAR data used for applied research
 
-  - type: text
+  - type: steps
     kicker_fr: Parcours du projet
     kicker_en: Project progress
     title_fr: Quatre années pour faire progresser WaterShade
     title_en: Four years of advancing WaterShade
-    body_fr: |
+    intro_fr: >-
       De 2023 à 2026, les projets financés par la Fondation pour la conservation du saumon atlantique ont fait évoluer WaterShade d’un cadre de gestion à des plans de conservation adaptés aux sous-bassins versants. Il s’agit d’un projet de longue haleine : la stratégie de gestion et le plan d’implantation offrent une base commune appelée à évoluer avec les nouvelles données, les résultats de terrain, les connaissances des partenaires et les conditions changeantes du bassin versant.
-
-      En 2023, l’équipe a établi la stratégie de gestion et le plan d’implantation. En 2024, le travail a porté sur la cartographie, la caractérisation et le suivi. Les années 2025 et 2026 ont fait progresser les plans de conservation, la caractérisation des régimes thermiques, les données de débit et l’arrimage des actions de gestion.
-    body_en: |
+    intro_en: >-
       From 2023 to 2026, projects funded by the Atlantic Salmon Conservation Foundation have advanced WaterShade from a management framework to sub-watershed-specific conservation plans. This is long-term work: the management strategy and implementation plan provide a shared foundation that will evolve with new data, field results, partner knowledge and changing conditions across the watershed.
-
-      In 2023, the team established the management strategy and implementation plan. In 2024, work focused on mapping, characterization and monitoring. The 2025 and 2026 phases advanced conservation plans, thermal-regime characterization, flow data and the alignment of management actions.
+    steps:
+      - title_fr: 2023 — Établir une base commune
+        title_en: 2023 — Establishing a shared foundation
+        text_fr: Élaboration de la stratégie de gestion des refuges thermiques et du plan d’implantation qui oriente la protection, la mise en valeur et la recherche appliquée.
+        text_en: Development of the thermal-refuge management strategy and implementation plan guiding protection, enhancement and applied research.
+      - title_fr: 2024 — Cartographier et caractériser
+        title_en: 2024 — Mapping and characterizing
+        text_fr: Recensement géomatique par type, présélection des refuges, analyse des bandes riveraines et des aires de drainage, validation terrain, imagerie par drone et suivi de température.
+        text_en: Geospatial inventory by type, refuge pre-selection, riparian-area and drainage-area analysis, field validation, drone imagery and temperature monitoring.
+      - title_fr: 2025 — Cibler les actifs prioritaires
+        title_en: 2025 — Focusing on priority assets
+        text_fr: Élaboration de plans de conservation pour les sous-bassins sélectionnés, caractérisation des régimes thermiques et acquisition continue de données pour orienter les interventions.
+        text_en: Development of conservation plans for selected sub-watersheds, thermal-regime characterization and ongoing data collection to guide interventions.
+      - title_fr: 2026 — Optimiser les plans de conservation
+        title_en: 2026 — Optimizing conservation plans
+        text_fr: Mise à jour des plans, ajout des données de débit, poursuite des suivis thermiques et collaboration avec le ministère afin d’arrimer les actions de gestion.
+        text_en: Plan updates, addition of flow data, continued thermal monitoring and collaboration with the department to align management actions.
     image_show: true
-    image: /assets/img/watershade/watershade-pillar-enhancement.jpg
-    image_alt_fr: Essai terrain dans le cadre de l’amélioration d’un refuge d’eau froide
-    image_alt_en: Field test as part of cold-water refuge enhancement
-    image_caption_fr: Les données terrain orientent les plans de conservation.
-    image_caption_en: Field data guide conservation plans.
+    image: /assets/img/watershade/watershade-science-forum-milestones.jpg
+    image_alt_fr: Équipement de suivi de la température déployé dans le cadre de WaterShade
+    image_alt_en: Temperature-monitoring equipment deployed as part of WaterShade
+    image_caption_fr: Les suivis sur le terrain font progresser les plans de conservation.
+    image_caption_en: Field monitoring advances conservation plans.
 
   - type: text
     kicker_fr: Partenariats
@@ -129,9 +142,9 @@ sections:
 
       In Quebec, [Garde-la frette!](https://www.matapediarestigouche.org/garde-la-frette), led by the Organisme de bassin versant Matapédia-Restigouche (OBVMR), complements the thermal-refuge protection approach. Explore GINU’s [Thermal Refuge project](https://ginu.co/?p=2902).
     image_show: true
-    image: /assets/img/watershade/watershade-pillar-stewardship.jpg
-    image_alt_fr: Recherche sur les refuges d’eau froide en soutien à l’intendance
-    image_alt_en: Cold-water refuge research supporting stewardship
+    image: /assets/img/watershade/watershade-science-forum-partnerships.jpg
+    image_alt_fr: Relevé par drone réalisé avec GINU dans le cadre de WaterShade
+    image_alt_en: Drone survey conducted with GINU as part of WaterShade
     image_caption_fr: La collaboration renforce les actions sur le territoire.
     image_caption_en: Collaboration strengthens action across the territory.
 ---
