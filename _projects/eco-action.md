@@ -8,14 +8,14 @@ title_fr: ÉcoAction 2024-2027
 title_en: EcoAction 2024-2027
 subtitle_fr: Des aménagements fondés sur la nature pour favoriser l’infiltration de l’eau et réduire le ruissellement vers le ruisseau Five Fingers à Saint-Quentin.
 subtitle_en: Nature-based infrastructure to promote water infiltration and reduce runoff into Five Fingers Creek in Saint-Quentin.
-hero_image: /assets/img/ecoaction/ecoaction-pond-outlet.png
-hero_alt_fr: Aménagement d’un étang et de son exutoire pour la gestion de l’eau
-hero_alt_en: Pond and outlet infrastructure for water management
-hero_caption_fr: Les aménagements sont adaptés aux caractéristiques du site, du sol et des écoulements.
-hero_caption_en: Infrastructure is adapted to each site’s soils and drainage patterns.
-card_image: /assets/img/ecoaction/ecoaction-pond-outlet.png
-card_alt_fr: Aménagement d’un étang et de son exutoire pour la gestion de l’eau
-card_alt_en: Pond and outlet infrastructure for water management
+hero_image: /assets/img/ecoaction/ecoaction-hero-maintenance.jpg
+hero_alt_fr: Entretien d’un aménagement de gestion des eaux
+hero_alt_en: Maintenance of a water-management installation
+hero_caption_fr: L’entretien régulier aide les aménagements à continuer de gérer les eaux de ruissellement.
+hero_caption_en: Regular maintenance helps infrastructure continue to manage runoff.
+card_image: /assets/img/ecoaction/ecoaction-hero-maintenance.jpg
+card_alt_fr: Entretien d’un aménagement de gestion des eaux
+card_alt_en: Maintenance of a water-management installation
 
 sections:
   - type: text
@@ -32,42 +32,47 @@ sections:
 
       Concerns about land development and the effects of climate change prompted this work. By restoring part of the soil’s and vegetation’s capacity to retain water, the project helps preserve more functional hydrological regimes in an agricultural and urban area.
     image_show: true
-    image: /assets/img/ecoaction/ecoaction-infiltration-pond.jpg
-    image_alt_fr: Étang d’infiltration et trappe à sédiments
-    image_alt_en: Infiltration pond and sediment trap
-    image_caption_fr: Les étangs et les trappes à sédiments font partie des solutions envisagées.
-    image_caption_en: Ponds and sediment traps are among the solutions being considered.
+    image: /assets/img/ecoaction/ecoaction-rain-garden-jaan.jpg
+    image_alt_fr: Jardin de pluie conçu par JAAN Design
+    image_alt_en: Rain garden designed by JAAN Design
+    image_caption_fr: Un jardin de pluie favorise l’infiltration et ajoute de la végétation au paysage.
+    image_caption_en: A rain garden promotes infiltration and adds vegetation to the landscape.
 
-  - type: stats
+  - type: steps
     kicker_fr: Portée des interventions
     kicker_en: Scope of work
     title_fr: Trois sites pilotes à Saint-Quentin
     title_en: Three pilot sites in Saint-Quentin
-    body_fr: |
-      Le projet s’appuie sur l’observation du ruissellement et l’échantillonnage de la turbidité pour cibler les apports de sédiments. Les plans préliminaires identifient quatre principaux points d’entrée des sédiments et trois zones d’intervention : un site citoyen, un site agricole et un site municipal.
+    intro_fr: |
+      Le projet s’appuie sur l’observation du ruissellement et l’échantillonnage de la turbidité pour cibler les apports de sédiments. Les plans préliminaires identifient quatre principaux points d’entrée des sédiments et trois zones d’intervention, dans un secteur agricole de 65 ha et sur un tronçon de 5 km du ruisseau Five Fingers.
 
       Ces démonstrateurs permettront de comparer et de faire connaître des mesures adaptées aux conditions locales, notamment les jardins de pluie, les tranchées d’infiltration, les étangs et les ouvrages de captation des sédiments.
-    body_en: |
-      The project uses runoff observations and turbidity sampling to identify sediment inputs. Preliminary plans identify four main sediment-entry points and three intervention areas: one residential site, one agricultural site and one municipal site.
+    intro_en: |
+      The project uses runoff observations and turbidity sampling to identify sediment inputs. Preliminary plans identify four main sediment-entry points and three intervention areas within a 65-hectare agricultural area and along a 5-km reach of Five Fingers Creek.
 
       These demonstration sites will help compare and share measures suited to local conditions, including rain gardens, infiltration trenches, ponds and sediment-capture infrastructure.
-    stats:
-      - value_fr: "3"
-        value_en: "3"
-        label_fr: Sites pilotes — citoyen, agricole et municipal
-        label_en: Pilot sites — residential, agricultural and municipal
-      - value_fr: "4"
-        value_en: "4"
-        label_fr: Principaux points d’entrée de sédiments repérés
-        label_en: Main sediment-entry points identified
-      - value_fr: "65 ha"
-        value_en: "65 ha"
-        label_fr: Secteur agricole visé dans le bassin versant
-        label_en: Agricultural area targeted in the watershed
-      - value_fr: "5 km"
-        value_en: "5 km"
-        label_fr: Cours d’eau du ruisseau Five Fingers concerné
-        label_en: Five Fingers Creek reach concerned
+    steps:
+      - title_fr: Site agricole
+        title_en: Agricultural site
+        text_fr: Un design adapté aux pratiques agricoles et aux écoulements observés sur le terrain.
+        text_en: A design adapted to agricultural practices and field-observed drainage patterns.
+        image: /assets/img/ecoaction/ecoaction-site-agricultural.jpg
+        image_alt_fr: Design d’aménagement pour le site agricole
+        image_alt_en: Design concept for the agricultural site
+      - title_fr: Site municipal
+        title_en: Municipal site
+        text_fr: Des solutions qui améliorent la gestion du ruissellement dans les espaces municipaux.
+        text_en: Solutions that improve runoff management in municipal spaces.
+        image: /assets/img/ecoaction/ecoaction-site-municipal.jpg
+        image_alt_fr: Design d’aménagement pour le site municipal
+        image_alt_en: Design concept for the municipal site
+      - title_fr: Site privé
+        title_en: Private site
+        text_fr: Un aménagement de jardin de pluie conçu pour retenir et infiltrer les eaux de surface.
+        text_en: A rain-garden design intended to retain and infiltrate surface water.
+        image: /assets/img/ecoaction/ecoaction-site-private.jpg
+        image_alt_fr: Design d’aménagement pour le site privé
+        image_alt_en: Design concept for the private site
 
   - type: steps
     kicker_fr: Notre méthode
@@ -81,23 +86,23 @@ sections:
         title_en: Understand drainage patterns
         text_fr: Les relevés de terrain, les observations après la pluie et le suivi de la turbidité permettent de repérer les chemins du ruissellement et de prioriser les sources de sédiments.
         text_en: Field surveys, post-rain observations and turbidity monitoring identify runoff pathways and help prioritize sediment sources.
-        image: /assets/img/ecoaction/ecoaction-poster.jpg
-        image_alt_fr: Affiche du projet ÉcoAction sur les aménagements de gestion de l’eau
-        image_alt_en: EcoAction poster about water-management infrastructure
+        image: /assets/img/ecoaction/ecoaction-method-observe.jpg
+        image_alt_fr: Aménagement agricole de gestion des eaux observé sur le terrain
+        image_alt_en: Agricultural water-management infrastructure observed in the field
       - title_fr: Ralentir et infiltrer
         title_en: Slow and infiltrate
         text_fr: Les solutions envisagées comprennent des jardins de pluie, des tranchées végétalisées, des étangs d’infiltration et des trappes à sédiments. Elles sont adaptées à la topographie, aux sols et aux volumes d’eau de chaque site.
         text_en: Measures being considered include rain gardens, vegetated trenches, infiltration ponds and sediment traps. They are adapted to the topography, soils and water volumes at each site.
-        image: /assets/img/ecoaction/ecoaction-pond-outlet.png
-        image_alt_fr: Exutoire d’un aménagement de gestion des eaux
-        image_alt_en: Outlet of a water-management installation
+        image: /assets/img/ecoaction/ecoaction-infiltration-pond.jpg
+        image_alt_fr: Étang d’infiltration et trappe à sédiments
+        image_alt_en: Infiltration pond and sediment trap
       - title_fr: Partager et maintenir
         title_en: Share and maintain
         text_fr: Des panneaux d’interprétation, des visites de sites et des activités communautaires permettront de faire connaître les aménagements. Le suivi et l’entretien sont prévus pour vérifier que les infrastructures continuent de remplir leur rôle.
         text_en: Interpretive panels, site visits and community activities will share information about the infrastructure. Follow-up and maintenance are planned to confirm that the measures continue to serve their purpose.
-        image: /assets/img/ecoaction/ecoaction-grassed-waterway.jpg
-        image_alt_fr: Voie engazonnée et fossé de diversion pour gérer le ruissellement
-        image_alt_en: Grassed waterway and diversion ditch for runoff management
+        image: /assets/img/ecoaction/ecoaction-poster.jpg
+        image_alt_fr: Affiche du projet ÉcoAction sur les aménagements de gestion de l’eau
+        image_alt_en: EcoAction poster about water-management infrastructure
 
   - type: text
     kicker_fr: Résultats attendus
