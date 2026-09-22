@@ -42,6 +42,12 @@ sections:
     image_alt_en: Water-temperature increase chart presented at Science Forum 2025
     image_caption_fr: Les données de température montrent l’évolution des conditions thermiques.
     image_caption_en: Temperature data show changing thermal conditions.
+    below_image_show: true
+    below_image: /assets/img/watershade/salmon-group.jpg
+    below_image_alt_fr: Groupe de saumons atlantiques
+    below_image_alt_en: Group of Atlantic salmon
+    below_image_caption_fr: Le saumon atlantique dépend de refuges d’eau froide pendant les périodes de chaleur.
+    below_image_caption_en: Atlantic salmon depend on cold-water refuges during warm periods.
 
   - type: text
     kicker_fr: Références du projet

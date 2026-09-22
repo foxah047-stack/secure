@@ -49,8 +49,10 @@ layout: default
           {% assign body_en = section.body_en | default: body_fr | strip %}
           {% assign has_image = false %}
           {% if section.image_show and section.image %}{% assign has_image = true %}{% endif %}
+          {% assign has_below_image = false %}
+          {% if section.below_image_show and section.below_image %}{% assign has_below_image = true %}{% endif %}
           {% assign image_fit = section.image_fit | default: 'cover' | strip %}
-          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_image %}
+          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_image or has_below_image %}
           <section class="project-section{% if has_image %} project-split-section{% endif %}">
             <div>
               {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
@@ -61,6 +63,9 @@ layout: default
             {% if has_image %}
               {% capture project_image_class %}project-side-image project-side-image--{{ image_fit }}{% endcapture %}
               {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class=project_image_class %}
+            {% endif %}
+            {% if has_below_image %}
+              {% include project-image.html show=section.below_image_show image=section.below_image alt_fr=section.below_image_alt_fr alt_en=section.below_image_alt_en caption_fr=section.below_image_caption_fr caption_en=section.below_image_caption_en class='project-wide-image project-context-below-image' %}
             {% endif %}
           </section>
           {% endif %}
