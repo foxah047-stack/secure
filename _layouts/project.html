@@ -128,7 +128,9 @@ layout: default
               {% if stat.value_fr != '' or stat.label_fr != '' %}{% assign has_stats = true %}{% endif %}
             {% endfor %}
           {% endif %}
-          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_stats %}
+          {% assign has_image = false %}
+          {% if section.image_show and section.image %}{% assign has_image = true %}{% endif %}
+          {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_stats or has_image %}
           <section class="project-section project-scope-section">
             {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
             {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}
@@ -151,6 +153,9 @@ layout: default
                 {% endif %}
               {% endfor %}
             </div>
+            {% endif %}
+            {% if has_image %}
+              {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class='project-wide-image' %}
             {% endif %}
           </section>
           {% endif %}
