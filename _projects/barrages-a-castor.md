@@ -69,9 +69,9 @@ sections:
         label_fr: Habitat rendu accessible en 2025
         label_en: Habitat made accessible in 2025
     image_show: true
-    image: /assets/img/beaver-dam-opened-tributaries-map-2025.png
-    image_alt_fr: Carte des tributaires où des barrages à castor ont été ouverts en 2025
-    image_alt_en: Map of tributaries where beaver dams were opened in 2025
+    image: /assets/img/beaver-dam-opened-tributaries-map-2024.jpg
+    image_alt_fr: Carte des tributaires où des barrages à castor ont été ouverts en 2024
+    image_alt_en: Map of tributaries where beaver dams were opened in 2024
     image_caption_fr: Les cartes guident la planification des équipes terrain.
     image_caption_en: Maps guide field-team planning.
 
@@ -87,9 +87,9 @@ sections:
         title_en: Identify and prioritize
         text_fr: Les survols d’automne localisent les barrages et aident à identifier ceux qui empêchent l’accès aux tronçons de reproduction. Les équipes tiennent compte des débits, de la position dans le réseau hydrographique et de l’habitat disponible en amont.
         text_en: Autumn flights locate dams and help identify those blocking access to spawning reaches. Teams consider flow conditions, position in the stream network and habitat available upstream.
-        image: /assets/img/beaver-dam-gunamitz-2024.jpg
-        image_alt_fr: Barrage à castor repéré à Gunamitz en 2024
-        image_alt_en: Beaver dam identified at Gunamitz in 2024
+        image: /assets/img/beaver-dam-survol.jpg
+        image_alt_fr: Survol de repérage des barrages à castor
+        image_alt_en: Aerial survey to identify beaver dams
       - title_fr: Créer des brèches temporaires
         title_en: Create temporary breaches
         text_fr: Des équipes terrain ouvrent les barrages prioritaires afin de permettre le passage des reproducteurs. Les brèches demeurent ciblées et temporaires, avec des mesures de gestion des castors lorsque la situation le justifie.
@@ -101,9 +101,9 @@ sections:
         title_en: Verify and adapt
         text_fr: Les cartes, les tableaux par tributaire et les observations de terrain documentent les travaux. Les données disponibles de pêche électrique permettent aussi de suivre la présence de juvéniles en amont des barrages ouverts.
         text_en: Maps, tributary-by-tributary tables and field observations document the work. Available electrofishing data also help track juvenile presence upstream of opened dams.
-        image: /assets/img/beaver-dam-little-main-2024.jpg
-        image_alt_fr: Travail terrain sur la Little Main Restigouche en 2024
-        image_alt_en: Field work on the Little Main Restigouche in 2024
+        image: /assets/img/beaver-dam-embacle.jpg
+        image_alt_fr: Embâcle dans un tributaire de la Restigouche
+        image_alt_en: Debris jam in a Restigouche tributary
 
   - type: text
     kicker_fr: Résultats documentés
@@ -119,9 +119,9 @@ sections:
 
       Results confirm the importance of an approach adapted to annual conditions. A 2025 review using Fisheries and Oceans Canada electrofishing data found increased fry and juvenile salmon presence in the years following dam openings at four locations. These observations guide the continuation of the program and the selection of future interventions.
     image_show: true
-    image: /assets/img/beaver-dam-little-main-2024.jpg
-    image_alt_fr: Travaux terrain sur la Little Main Restigouche en 2024
-    image_alt_en: Field work on the Little Main Restigouche in 2024
+    image: /assets/img/beaver-dam-breach.jpg
+    image_alt_fr: Brèche aménagée dans un barrage à castor
+    image_alt_en: Breach created in a beaver dam
     image_caption_fr: Les observations sur le terrain complètent le suivi des résultats.
     image_caption_en: Field observations complement results monitoring.
 ---
