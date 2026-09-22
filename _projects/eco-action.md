@@ -56,9 +56,9 @@ sections:
         title_en: Agricultural site
         text_fr: Un design adapté aux pratiques agricoles et aux écoulements observés sur le terrain.
         text_en: A design adapted to agricultural practices and field-observed drainage patterns.
-        image: /assets/img/ecoaction/ecoaction-site-agricultural.jpg
-        image_alt_fr: Design d’aménagement pour le site agricole
-        image_alt_en: Design concept for the agricultural site
+        image: /assets/img/ecoaction/ecoaction-poster.jpg
+        image_alt_fr: Affiche de design d’aménagement pour le site agricole
+        image_alt_en: Agricultural site design poster
       - title_fr: Site municipal
         title_en: Municipal site
         text_fr: Des solutions qui améliorent la gestion du ruissellement dans les espaces municipaux.
@@ -100,9 +100,9 @@ sections:
         title_en: Share and maintain
         text_fr: Des panneaux d’interprétation, des visites de sites et des activités communautaires permettront de faire connaître les aménagements. Le suivi et l’entretien sont prévus pour vérifier que les infrastructures continuent de remplir leur rôle.
         text_en: Interpretive panels, site visits and community activities will share information about the infrastructure. Follow-up and maintenance are planned to confirm that the measures continue to serve their purpose.
-        image: /assets/img/ecoaction/ecoaction-wetlands-day-invitation.jpg
-        image_alt_fr: Invitation à la Journée des milieux humides
-        image_alt_en: Wetlands Day invitation
+        image: /assets/img/ecoaction/ecoaction-diversion-ditch.jpg
+        image_alt_fr: Fossé de diversion pour gérer le ruissellement
+        image_alt_en: Diversion ditch for runoff management
 
   - type: text
     kicker_fr: Résultats attendus
@@ -117,10 +117,4 @@ sections:
       The pilot infrastructure is intended to improve water quality by limiting sediment and nutrient inputs, reduce erosion and promote groundwater recharge. It will also help determine which solutions are suited to local watershed conditions.
 
       The project includes a communications campaign, hands-on learning opportunities and outreach with residents, agricultural producers, the municipality and schools. Baseline data and infrastructure monitoring will support this work through 2027.
-    image_show: true
-    image: /assets/img/ecoaction/ecoaction-site-agricultural.jpg
-    image_alt_fr: Design d’aménagement pour le site agricole
-    image_alt_en: Design concept for the agricultural site
-    image_caption_fr: Le design du site agricole illustre les aménagements envisagés pour retenir et infiltrer l’eau.
-    image_caption_en: The agricultural site design illustrates infrastructure being considered to retain and infiltrate water.
 ---
