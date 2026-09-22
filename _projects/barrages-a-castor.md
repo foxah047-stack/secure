@@ -8,14 +8,14 @@ title_fr: Brèche dans les barrages à castor
 title_en: Beaver dam breaches
 subtitle_fr: Rétablir l’accès aux habitats de reproduction du saumon atlantique tout en tenant compte du rôle écologique des castors dans le bassin versant de la Restigouche.
 subtitle_en: Restoring access to Atlantic salmon spawning habitat while accounting for the ecological role of beavers across the Restigouche watershed.
-hero_image: /assets/img/beaver-dam-breaches-jay.jpg
-hero_alt_fr: Repérage aérien des barrages à castor par hélicoptère
-hero_alt_en: Aerial survey of beaver dams by helicopter
+hero_image: /assets/img/beaver-dam-survol.jpg
+hero_alt_fr: Survol de repérage des barrages à castor
+hero_alt_en: Aerial survey to identify beaver dams
 hero_caption_fr: Les survols d’automne aident à cibler les obstacles qui limitent l’accès aux frayères.
 hero_caption_en: Autumn flights help identify obstacles that limit access to spawning grounds.
-card_image: /assets/img/beaver-dam-breaches-jay.jpg
-card_alt_fr: Repérage aérien des barrages à castor par hélicoptère
-card_alt_en: Aerial survey of beaver dams by helicopter
+card_image: /assets/img/beaver-dam-survol.jpg
+card_alt_fr: Survol de repérage des barrages à castor
+card_alt_en: Aerial survey to identify beaver dams
 
 sections:
   - type: text
@@ -36,9 +36,9 @@ sections:
 
       During the program’s first seven documented years, nearly 200 breaches restored access to almost 500 km of river. These figures provide a long-term perspective on targeted work across the watershed.
     image_show: true
-    image: /assets/img/beaver-dam-gunamitz-2024.jpg
-    image_alt_fr: Travaux sur un barrage à castor à Gunamitz en 2024
-    image_alt_en: Beaver dam work at Gunamitz in 2024
+    image: /assets/img/beaver-dam-patapedia-2024.jpg
+    image_alt_fr: Travaux de brèche sur un barrage à castor à Patapédia en 2024
+    image_alt_en: Beaver dam breach work at Patapédia in 2024
     image_caption_fr: Les équipes terrain réalisent des brèches temporaires aux obstacles prioritaires.
     image_caption_en: Field crews create temporary breaches at priority obstacles.
 
@@ -68,12 +68,6 @@ sections:
         value_en: "1.85 million m²"
         label_fr: Habitat rendu accessible en 2025
         label_en: Habitat made accessible in 2025
-    image_show: true
-    image: /assets/img/beaver-dam-opened-tributaries-map-2024.jpg
-    image_alt_fr: Carte des tributaires où des barrages à castor ont été ouverts en 2024
-    image_alt_en: Map of tributaries where beaver dams were opened in 2024
-    image_caption_fr: Les cartes guident la planification des équipes terrain.
-    image_caption_en: Maps guide field-team planning.
 
   - type: steps
     kicker_fr: Notre méthode
@@ -87,23 +81,23 @@ sections:
         title_en: Identify and prioritize
         text_fr: Les survols d’automne localisent les barrages et aident à identifier ceux qui empêchent l’accès aux tronçons de reproduction. Les équipes tiennent compte des débits, de la position dans le réseau hydrographique et de l’habitat disponible en amont.
         text_en: Autumn flights locate dams and help identify those blocking access to spawning reaches. Teams consider flow conditions, position in the stream network and habitat available upstream.
-        image: /assets/img/beaver-dam-survol.jpg
-        image_alt_fr: Survol de repérage des barrages à castor
-        image_alt_en: Aerial survey to identify beaver dams
+        image: /assets/img/beaver-dam-breaches-jay.jpg
+        image_alt_fr: Repérage aérien des barrages à castor par hélicoptère
+        image_alt_en: Aerial survey of beaver dams by helicopter
       - title_fr: Créer des brèches temporaires
         title_en: Create temporary breaches
         text_fr: Des équipes terrain ouvrent les barrages prioritaires afin de permettre le passage des reproducteurs. Les brèches demeurent ciblées et temporaires, avec des mesures de gestion des castors lorsque la situation le justifie.
         text_en: Field crews open priority dams to allow spawning adults to pass. Breaches remain targeted and temporary, with beaver-management measures used when conditions warrant them.
-        image: /assets/img/beaver-dam-patapedia-2024.jpg
-        image_alt_fr: Travaux de brèche sur un barrage à castor à Patapédia en 2024
-        image_alt_en: Beaver dam breach work at Patapédia in 2024
+        image: /assets/img/beaver-dam-gunamitz-2024.jpg
+        image_alt_fr: Travaux sur un barrage à castor à Gunamitz en 2024
+        image_alt_en: Beaver dam work at Gunamitz in 2024
       - title_fr: Vérifier et adapter
         title_en: Verify and adapt
         text_fr: Les cartes, les tableaux par tributaire et les observations de terrain documentent les travaux. Les données disponibles de pêche électrique permettent aussi de suivre la présence de juvéniles en amont des barrages ouverts.
         text_en: Maps, tributary-by-tributary tables and field observations document the work. Available electrofishing data also help track juvenile presence upstream of opened dams.
-        image: /assets/img/beaver-dam-embacle.jpg
-        image_alt_fr: Embâcle dans un tributaire de la Restigouche
-        image_alt_en: Debris jam in a Restigouche tributary
+        image: /assets/img/beaver-dam-opened-tributaries-map-2024.jpg
+        image_alt_fr: Carte des tributaires où des barrages à castor ont été ouverts en 2024
+        image_alt_en: Map of tributaries where beaver dams were opened in 2024
 
   - type: text
     kicker_fr: Résultats documentés
