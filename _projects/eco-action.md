@@ -44,11 +44,11 @@ sections:
     title_fr: Trois sites pilotes à Saint-Quentin
     title_en: Three pilot sites in Saint-Quentin
     intro_fr: |
-      Le projet s’appuie sur l’observation du ruissellement et l’échantillonnage de la turbidité pour cibler les apports de sédiments. C’est par la mise en avant de trois sites pilotes que nous prévoyons agir sur 65 ha de secteur agricole, en limitant la perte de sol dans un bassin hydrologique désigné pour l’eau potable, en réduisant les apports en sédiments de différentes aires de stationnement au centre-ville et en implantant des infrastructures de gestion des eaux de ruissellement qui s’intègrent au paysage urbain.
+      C’est par la mise en avant de trois sites pilotes que nous prévoyons agir sur 65 ha de secteur agricole, en limitant la perte de sol dans un bassin hydrologique désigné pour l’eau potable, en réduisant les apports en sédiments de différentes aires de stationnement au centre-ville et en implantant des infrastructures de gestion des eaux de ruissellement qui s’intègrent au paysage urbain.
 
       Ces démonstrateurs permettront de comparer et de faire connaître des mesures adaptées aux conditions locales, notamment les jardins de pluie, les tranchées d’infiltration, les étangs et les ouvrages de captation des sédiments.
     intro_en: |
-      The project uses runoff observations and turbidity sampling to identify sediment inputs. Through three pilot sites, the project will act across 65 hectares of agricultural land by limiting soil loss in a watershed designated for drinking water, reducing sediment inputs from several downtown parking areas and installing runoff-management infrastructure that integrates with the urban landscape.
+      Through three pilot sites, the project will act across 65 hectares of agricultural land by limiting soil loss in a watershed designated for drinking water, reducing sediment inputs from several downtown parking areas and installing runoff-management infrastructure that integrates with the urban landscape.
 
       These demonstration sites will help compare and share measures suited to local conditions, including rain gardens, infiltration trenches, ponds and sediment-capture infrastructure.
     steps:
