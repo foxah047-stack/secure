@@ -63,9 +63,9 @@ sections:
         title_en: Municipal site
         text_fr: Des solutions qui améliorent la gestion du ruissellement dans les espaces municipaux.
         text_en: Solutions that improve runoff management in municipal spaces.
-        image: /assets/img/ecoaction/ecoaction-site-municipal.jpg
-        image_alt_fr: Design d’aménagement pour le site municipal
-        image_alt_en: Design concept for the municipal site
+        image: /assets/img/ecoaction/ecoaction-site-municipal-poster.jpg
+        image_alt_fr: Affiche de design du site municipal
+        image_alt_en: Municipal site design poster
       - title_fr: Site privé
         title_en: Private site
         text_fr: Un aménagement de jardin de pluie conçu pour retenir et infiltrer les eaux de surface.
@@ -100,9 +100,9 @@ sections:
         title_en: Share and maintain
         text_fr: Des panneaux d’interprétation, des visites de sites et des activités communautaires permettront de faire connaître les aménagements. Le suivi et l’entretien sont prévus pour vérifier que les infrastructures continuent de remplir leur rôle.
         text_en: Interpretive panels, site visits and community activities will share information about the infrastructure. Follow-up and maintenance are planned to confirm that the measures continue to serve their purpose.
-        image: /assets/img/ecoaction/ecoaction-poster.jpg
-        image_alt_fr: Affiche du projet ÉcoAction sur les aménagements de gestion de l’eau
-        image_alt_en: EcoAction poster about water-management infrastructure
+        image: /assets/img/ecoaction/ecoaction-wetlands-day-invitation.jpg
+        image_alt_fr: Invitation à la Journée des milieux humides
+        image_alt_en: Wetlands Day invitation
 
   - type: text
     kicker_fr: Résultats attendus
@@ -118,9 +118,9 @@ sections:
 
       The project includes a communications campaign, hands-on learning opportunities and outreach with residents, agricultural producers, the municipality and schools. Baseline data and infrastructure monitoring will support this work through 2027.
     image_show: true
-    image: /assets/img/ecoaction/ecoaction-poster.jpg
-    image_alt_fr: Affiche de sensibilisation sur les étangs et jardins de pluie
-    image_alt_en: Awareness poster about ponds and rain gardens
-    image_caption_fr: Le partage de connaissances fait partie intégrante de la démarche ÉcoAction.
-    image_caption_en: Knowledge sharing is an integral part of the EcoAction approach.
+    image: /assets/img/ecoaction/ecoaction-site-agricultural.jpg
+    image_alt_fr: Design d’aménagement pour le site agricole
+    image_alt_en: Design concept for the agricultural site
+    image_caption_fr: Le design du site agricole illustre les aménagements envisagés pour retenir et infiltrer l’eau.
+    image_caption_en: The agricultural site design illustrates infrastructure being considered to retain and infiltrate water.
 ---
