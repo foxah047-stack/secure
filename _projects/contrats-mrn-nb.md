@@ -6,16 +6,95 @@ featured: true
 order: 5
 title_fr: Contrats avec le MRN-NB
 title_en: Contracts with NB DNR
-subtitle_fr: Maintenance des sites du programme récréatif et des eaux de la Couronne, et surveillance des fosses prioritaires pour la province du Nouveau-Brunswick.
-subtitle_en: Maintaining recreational and Crown-water sites, and monitoring priority pools, on behalf of the Province of New Brunswick.
-hero_image: /assets/img/panoramas/pan5.png
-hero_alt_fr: Vue panoramique du bassin versant de la Restigouche
-hero_alt_en: Panoramic view of the Restigouche watershed
+subtitle_fr: Entretien de sites de pêche et surveillance saisonnière de secteurs prioritaires dans le bassin versant de la Restigouche.
+subtitle_en: Maintaining fishing sites and providing seasonal monitoring at priority locations across the Restigouche watershed.
+hero_image: /assets/img/contracts/contracts-recreation-program.jpg
+hero_alt_fr: Site du programme récréatif de la rivière Restigouche
+hero_alt_en: Restigouche River recreation-program site
+hero_caption_fr: Les contrats confiés au CGBVRR soutiennent l’accès, l’entretien et la surveillance de sites prioritaires.
+hero_caption_en: Contracts delivered by RRWMC support access, maintenance and monitoring at priority sites.
+card_image: /assets/img/contracts/contracts-recreation-program.jpg
+card_alt_fr: Site du programme récréatif de la rivière Restigouche
+card_alt_en: Restigouche River recreation-program site
 
 sections:
   - type: text
+    kicker_fr: Aperçu des contrats
+    kicker_en: Contract overview
+    title_fr: Des services de terrain pour les sites prioritaires
+    title_en: Field services for priority sites
     body_fr: |
-      Nous avons une longue histoire de gestion de contrats pour la province du Nouveau-Brunswick. Depuis maintes années nous sommes responsables de la maintenance des sites du programme récréatif et des sites de pêche des eaux de la Couronne. Nous assumons également la surveillance de la fosse des Fourches de la rivière Kedgwick et de la barrière de la fosse du 10 Mile sur la rivière Upsalquitch.
+      Le CGBVRR réalise des contrats pour le ministère des Ressources naturelles du Nouveau-Brunswick qui combinent l’entretien de sites de pêche, la présence sur le terrain et la surveillance de secteurs sensibles. Ces services soutiennent l’utilisation responsable des sites et la protection des habitats aquatiques dans le bassin versant de la Restigouche.
+
+      Les équipes travaillent pendant la saison sur des sites accessibles au public, dans les eaux réservées de la Couronne ainsi qu’à des fosses et infrastructures où la surveillance régulière est importante.
     body_en: |
-      We have a long history of managing contracts for the Province of New Brunswick. For many years, we have been responsible for maintaining recreational program sites and Crown-water fishing sites. We also oversee surveillance of the Kedgwick River Forks pool and the barrier at the 10 Mile pool on the Upsalquitch River.
+      RRWMC delivers contracts for New Brunswick’s Department of Natural Resources that combine fishing-site maintenance, field presence and monitoring of sensitive areas. These services support responsible site use and the protection of aquatic habitat throughout the Restigouche watershed.
+
+      Teams work during the season at public-access sites, Crown reserve waters, and pools and infrastructure where regular monitoring is important.
+    image_show: true
+    image: /assets/img/contracts/contracts-crown-reserve-water.jpg
+    image_alt_fr: Site de pêche des eaux réservées de la Couronne
+    image_alt_en: Crown reserve water fishing site
+    image_caption_fr: L’entretien des sites contribue à une expérience de pêche sécuritaire et respectueuse du milieu.
+    image_caption_en: Site maintenance contributes to a safe fishing experience that respects the environment.
+
+  - type: steps
+    kicker_fr: Les cinq contrats
+    kicker_en: The five contracts
+    title_fr: Des responsabilités adaptées à chaque site
+    title_en: Responsibilities tailored to each site
+    intro_fr: Chaque contrat répond aux besoins particuliers du lieu, qu’il s’agisse de l’entretien des installations, de l’accueil des utilisateurs ou de la présence de gardiens pendant les périodes critiques.
+    intro_en: Each contract responds to site-specific needs, whether maintaining facilities, supporting users or providing a warden presence during critical periods.
+    steps:
+      - title_fr: Programme récréatif
+        title_en: Recreation program
+        text_fr: L’équipe assure l’entretien des sites du programme récréatif de la rivière Restigouche afin de soutenir l’accès et l’utilisation responsable des installations de pêche.
+        text_en: The team maintains Restigouche River recreation-program sites to support access and responsible use of fishing facilities.
+        image: /assets/img/contracts/contracts-recreation-program.jpg
+        image_alt_fr: Installation du programme récréatif de la rivière Restigouche
+        image_alt_en: Restigouche River recreation-program facility
+      - title_fr: Eaux réservées de la Couronne
+        title_en: Crown reserve waters
+        text_fr: L’entretien des sites de pêche des eaux réservées de la Couronne aide à maintenir les infrastructures et les conditions d’accueil des utilisateurs.
+        text_en: Maintaining Crown reserve water fishing sites helps keep infrastructure and visitor conditions in good order.
+        image: /assets/img/contracts/contracts-crown-reserve-water.jpg
+        image_alt_fr: Site de pêche des eaux réservées de la Couronne
+        image_alt_en: Crown reserve water fishing site
+      - title_fr: Surveillance des Fourches de la Kedgwick
+        title_en: Kedgwick Forks monitoring
+        text_fr: Deux gardiens assurent une présence et une surveillance de la fosse des Fourches de la Kedgwick de juin à octobre.
+        text_en: Two wardens provide a presence and monitor the Kedgwick Forks pool from June through October.
+        image: /assets/img/contracts/contracts-kedgwick-forks.jpg
+        image_alt_fr: Fosse des Fourches de la rivière Kedgwick
+        image_alt_en: Kedgwick River Forks pool
+      - title_fr: Fosse du 10 Mile et barrière à saumon
+        title_en: 10 Mile pool and salmon barrier
+        text_fr: Quatre gardiens surveillent le sanctuaire et la barrière du 10 Mile, sur la rivière Upsalquitch Nord-Ouest, de juin à octobre.
+        text_en: Four wardens monitor the 10 Mile sanctuary and salmon barrier on the Northwest Upsalquitch River from June through October.
+        image: /assets/img/contracts/contracts-ten-mile-pool.jpg
+        image_alt_fr: Sanctuaire et fosse du 10 Mile sur l’Upsalquitch Nord-Ouest
+        image_alt_en: 10 Mile sanctuary and pool on the Northwest Upsalquitch River
+      - title_fr: Surveillance des glaces
+        title_en: Ice monitoring
+        text_fr: La surveillance saisonnière des glaces permet de suivre les conditions observées sur les sites et d’appuyer une gestion prudente des accès et des infrastructures.
+        text_en: Seasonal ice monitoring tracks conditions observed at sites and supports careful management of access and infrastructure.
+        image: /assets/img/contracts/contracts-ice-monitoring.jpg
+        image_alt_fr: Conditions hivernales sur un site de rivière
+        image_alt_en: Winter conditions at a river site
+
+  - type: text
+    kicker_fr: Une présence utile
+    kicker_en: A useful field presence
+    title_fr: Entretenir, surveiller et informer
+    title_en: Maintain, monitor and inform
+    body_fr: |
+      La présence des équipes sur le terrain permet de repérer les besoins d’entretien, de suivre les conditions des sites et de répondre aux situations qui demandent une attention rapide. Ce travail régulier complète les efforts de protection des habitats et favorise une utilisation respectueuse des rivières.
+    body_en: |
+      Field presence helps identify maintenance needs, follow site conditions and respond to situations that require timely attention. This regular work complements habitat-protection efforts and promotes respectful use of the rivers.
+    image_show: true
+    image: /assets/img/contracts/contracts-ten-mile-pool.jpg
+    image_alt_fr: Site de surveillance du 10 Mile
+    image_alt_en: 10 Mile monitoring site
+    image_caption_fr: La surveillance de terrain soutient les décisions quotidiennes de gestion.
+    image_caption_en: Field monitoring supports day-to-day management decisions.
 ---
