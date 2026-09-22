@@ -24,11 +24,11 @@ sections:
     title_fr: Réduire le ruissellement à la source
     title_en: Reducing runoff at its source
     body_fr: |
-      Le projet ÉcoAction 2024-2027 vise à protéger les écosystèmes aquatiques du bassin versant du ruisseau Five Fingers, à Saint-Quentin, en favorisant l’infiltration de l’eau là où le ruissellement se forme. Les aménagements fondés sur la nature cherchent à ralentir les écoulements de surface et à limiter le transport de sédiments et de phosphore vers le cours d’eau.
+      Le projet ÉcoAction 2024-2027 vise à protéger les écosystèmes aquatiques du bassin versant du ruisseau Five Fingers, à Saint-Quentin, en favorisant l’infiltration de l’eau en contrôlant le ruissellement à sa source. Les aménagements fondés sur la nature cherchent à ralentir les écoulements de surface et à limiter le transport de sédiments et d'autres contaminants vers le cours d’eau.
 
       Les préoccupations liées au développement du territoire et aux effets des changements climatiques ont motivé cette démarche. En restaurant une partie de la capacité du sol et de la végétation à retenir l’eau, le projet contribue à préserver des régimes hydrologiques plus fonctionnels dans un secteur à vocation agricole et urbaine.
     body_en: |
-      The EcoAction 2024-2027 project protects aquatic ecosystems in the Five Fingers Creek watershed in Saint-Quentin by promoting water infiltration where runoff begins. Nature-based infrastructure is intended to slow surface flows and limit sediment and phosphorus transport into the watercourse.
+      The EcoAction 2024-2027 project protects aquatic ecosystems in the Five Fingers Creek watershed in Saint-Quentin by promoting water infiltration and controlling runoff at its source. Nature-based infrastructure is intended to slow surface flows and limit the transport of sediment and other contaminants into the watercourse.
 
       Concerns about land development and the effects of climate change prompted this work. By restoring part of the soil’s and vegetation’s capacity to retain water, the project helps preserve more functional hydrological regimes in an agricultural and urban area.
     image_show: true
@@ -44,11 +44,11 @@ sections:
     title_fr: Trois sites pilotes à Saint-Quentin
     title_en: Three pilot sites in Saint-Quentin
     intro_fr: |
-      Le projet s’appuie sur l’observation du ruissellement et l’échantillonnage de la turbidité pour cibler les apports de sédiments. Les plans préliminaires identifient quatre principaux points d’entrée des sédiments et trois zones d’intervention, dans un secteur agricole de 65 ha et sur un tronçon de 5 km du ruisseau Five Fingers.
+      Le projet s’appuie sur l’observation du ruissellement et l’échantillonnage de la turbidité pour cibler les apports de sédiments. C’est par la mise en avant de trois sites pilotes que nous prévoyons agir sur 65 ha de secteur agricole, en limitant la perte de sol dans un bassin hydrologique désigné pour l’eau potable, en réduisant les apports en sédiments de différentes aires de stationnement au centre-ville et en implantant des infrastructures de gestion des eaux de ruissellement qui s’intègrent au paysage urbain.
 
       Ces démonstrateurs permettront de comparer et de faire connaître des mesures adaptées aux conditions locales, notamment les jardins de pluie, les tranchées d’infiltration, les étangs et les ouvrages de captation des sédiments.
     intro_en: |
-      The project uses runoff observations and turbidity sampling to identify sediment inputs. Preliminary plans identify four main sediment-entry points and three intervention areas within a 65-hectare agricultural area and along a 5-km reach of Five Fingers Creek.
+      The project uses runoff observations and turbidity sampling to identify sediment inputs. Through three pilot sites, the project will act across 65 hectares of agricultural land by limiting soil loss in a watershed designated for drinking water, reducing sediment inputs from several downtown parking areas and installing runoff-management infrastructure that integrates with the urban landscape.
 
       These demonstration sites will help compare and share measures suited to local conditions, including rain gardens, infiltration trenches, ponds and sediment-capture infrastructure.
     steps:
