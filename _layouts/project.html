@@ -60,6 +60,7 @@ layout: default
               {% if body_fr != '' %}<div class="project-richtext" data-lang="fr">{{ body_fr | markdownify }}</div>{% endif %}
               {% if body_en != '' %}<div class="project-richtext" data-lang="en">{{ body_en | markdownify }}</div>{% endif %}
             </div>
+            {% if has_image and has_below_image %}<div class="project-context-media-stack">{% endif %}
             {% if has_image %}
               {% capture project_image_class %}project-side-image project-side-image--{{ image_fit }}{% endcapture %}
               {% include project-image.html show=section.image_show image=section.image alt_fr=section.image_alt_fr alt_en=section.image_alt_en caption_fr=section.image_caption_fr caption_en=section.image_caption_en class=project_image_class %}
@@ -67,6 +68,7 @@ layout: default
             {% if has_below_image %}
               {% include project-image.html show=section.below_image_show image=section.below_image alt_fr=section.below_image_alt_fr alt_en=section.below_image_alt_en caption_fr=section.below_image_caption_fr caption_en=section.below_image_caption_en class='project-wide-image project-context-below-image' %}
             {% endif %}
+            {% if has_image and has_below_image %}</div>{% endif %}
           </section>
           {% endif %}
 

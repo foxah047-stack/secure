@@ -1779,9 +1779,24 @@ a.btn-primary {
   padding: 12px;
 }
 .project-wide-image { margin-top: 28px; }
-.project-context-below-image {
-  grid-column: 1 / -1;
+.project-context-media-stack {
+  display: grid;
+  gap: 18px;
+  align-content: start;
 }
+.project-context-media-stack .project-side-image--contain img,
+.project-context-media-stack .project-context-below-image img {
+  aspect-ratio: 1040 / 403;
+}
+.project-context-media-stack .project-side-image--contain img {
+  padding: 0;
+  object-fit: contain;
+}
+.project-context-below-image {
+  margin-top: 0;
+  background: #fff;
+}
+.project-context-below-image img { object-fit: cover; }
 .project-standalone-image {
   width: min(1120px, 100%);
   margin: 0 auto clamp(28px, 5vw, 52px);
