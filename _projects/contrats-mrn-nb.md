@@ -78,9 +78,9 @@ sections:
         title_en: Ice monitoring
         text_fr: La surveillance saisonnière des glaces permet de suivre les conditions observées sur les sites et d’appuyer une gestion prudente des accès et des infrastructures.
         text_en: Seasonal ice monitoring tracks conditions observed at sites and supports careful management of access and infrastructure.
-        image: /assets/img/contracts/contracts-ice-monitoring-agm-2025.jpg
-        image_alt_fr: Photo de rivière tirée de l’AGA 2025
-        image_alt_en: River photograph from the 2025 AGM
+        image: /assets/img/contracts/contracts-ice-monitoring-river-agm-2026.jpg
+        image_alt_fr: Photo de rivière tirée de l’AGA 2026
+        image_alt_en: River photograph from the 2026 AGM
 
   - type: text
     kicker_fr: Une présence utile
