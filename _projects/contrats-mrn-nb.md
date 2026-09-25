@@ -26,11 +26,9 @@ sections:
     body_fr: |
       Le CGBVRR réalise des contrats pour le ministère des Ressources naturelles du Nouveau-Brunswick depuis de nombreuses années. Ceux-ci combinent l’entretien de sites de pêche des eaux réservées de la Couronne, des sites de camping le long de la Restigouche et la surveillance continue sur le terrain de fosses à saumon d’importance. Ces services soutiennent l’utilisation responsable des sites et la protection des habitats aquatiques dans le bassin versant de la Restigouche.
 
-      Les équipes travaillent pendant la saison sur des sites accessibles au public, dans les eaux réservées de la Couronne ainsi qu’à des fosses et infrastructures où la surveillance régulière est importante.
     body_en: |
       RRWMC has delivered contracts for New Brunswick’s Department of Natural Resources for many years. They combine maintenance of Crown reserve water fishing sites, camping sites along the Restigouche and continuous field monitoring at important salmon pools. These services support responsible site use and the protection of aquatic habitat throughout the Restigouche watershed.
 
-      Teams work during the season at public-access sites, Crown reserve waters, and pools and infrastructure where regular monitoring is important.
     image_show: true
     image: /assets/img/contracts/contracts-crown-reserve-water.jpg
     image_alt_fr: Site de pêche des eaux réservées de la Couronne
@@ -48,15 +46,15 @@ sections:
     steps:
       - title_fr: Programme récréatif
         title_en: Recreation program
-        text_fr: L’équipe assure l’entretien des sites du programme récréatif de la rivière Restigouche afin de soutenir l’accès et l’utilisation responsable des installations de pêche.
-        text_en: The team maintains Restigouche River recreation-program sites to support access and responsible use of fishing facilities.
+        text_fr: L’équipe assure l’entretien des sites de camping du Programme récréatif de la rivière Restigouche afin de soutenir l’accès et l’utilisation responsable des installations.
+        text_en: The team maintains camping sites in the Restigouche River recreation program to support access and responsible use of facilities.
         image: /assets/img/contracts/contracts-recreation-program.jpg
         image_alt_fr: Installation du programme récréatif de la rivière Restigouche
         image_alt_en: Restigouche River recreation-program facility
       - title_fr: Eaux réservées de la Couronne
         title_en: Crown reserve waters
-        text_fr: L’entretien des sites de pêche des eaux réservées de la Couronne aide à maintenir les infrastructures et les conditions d’accueil des utilisateurs.
-        text_en: Maintaining Crown reserve water fishing sites helps keep infrastructure and visitor conditions in good order.
+        text_fr: L’équipe assure l’entretien des sites de pêche des Eaux réservées de la Couronne afin de maintenir les infrastructures et les conditions d’accueil des utilisateurs.
+        text_en: The team maintains fishing sites in Crown reserve waters to keep infrastructure and visitor conditions in good order.
         image: /assets/img/contracts/contracts-crown-reserve-water.jpg
         image_alt_fr: Site de pêche des eaux réservées de la Couronne
         image_alt_en: Crown reserve water fishing site
