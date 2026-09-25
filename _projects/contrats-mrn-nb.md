@@ -21,14 +21,14 @@ sections:
   - type: text
     kicker_fr: Aperçu des contrats
     kicker_en: Contract overview
-    title_fr: Des services de terrain pour les sites prioritaires
-    title_en: Field services for priority sites
+    title_fr: Entretien des infrastructures de pêche et de récréotourisme et surveillance des fosses prioritaires
+    title_en: Fishing and recreation infrastructure maintenance and priority pool monitoring
     body_fr: |
-      Le CGBVRR réalise des contrats pour le ministère des Ressources naturelles du Nouveau-Brunswick qui combinent l’entretien de sites de pêche, la présence sur le terrain et la surveillance de secteurs sensibles. Ces services soutiennent l’utilisation responsable des sites et la protection des habitats aquatiques dans le bassin versant de la Restigouche.
+      Le CGBVRR réalise des contrats pour le ministère des Ressources naturelles du Nouveau-Brunswick depuis de nombreuses années. Ceux-ci combinent l’entretien de sites de pêche des eaux réservées de la Couronne, des sites de camping le long de la Restigouche et la surveillance continue sur le terrain de fosses à saumon d’importance. Ces services soutiennent l’utilisation responsable des sites et la protection des habitats aquatiques dans le bassin versant de la Restigouche.
 
       Les équipes travaillent pendant la saison sur des sites accessibles au public, dans les eaux réservées de la Couronne ainsi qu’à des fosses et infrastructures où la surveillance régulière est importante.
     body_en: |
-      RRWMC delivers contracts for New Brunswick’s Department of Natural Resources that combine fishing-site maintenance, field presence and monitoring of sensitive areas. These services support responsible site use and the protection of aquatic habitat throughout the Restigouche watershed.
+      RRWMC has delivered contracts for New Brunswick’s Department of Natural Resources for many years. They combine maintenance of Crown reserve water fishing sites, camping sites along the Restigouche and continuous field monitoring at important salmon pools. These services support responsible site use and the protection of aquatic habitat throughout the Restigouche watershed.
 
       Teams work during the season at public-access sites, Crown reserve waters, and pools and infrastructure where regular monitoring is important.
     image_show: true
@@ -71,16 +71,16 @@ sections:
         title_en: 10 Mile pool and salmon barrier
         text_fr: Quatre gardiens surveillent le sanctuaire et la barrière du 10 Mile, sur la rivière Upsalquitch Nord-Ouest, de juin à octobre.
         text_en: Four wardens monitor the 10 Mile sanctuary and salmon barrier on the Northwest Upsalquitch River from June through October.
-        image: /assets/img/contracts/contracts-ten-mile-pool.jpg
-        image_alt_fr: Sanctuaire et fosse du 10 Mile sur l’Upsalquitch Nord-Ouest
-        image_alt_en: 10 Mile sanctuary and pool on the Northwest Upsalquitch River
+        image: /assets/img/contracts/contracts-ice-monitoring.jpg
+        image_alt_fr: Conditions hivernales sur un site de rivière
+        image_alt_en: Winter conditions at a river site
       - title_fr: Surveillance des glaces
         title_en: Ice monitoring
         text_fr: La surveillance saisonnière des glaces permet de suivre les conditions observées sur les sites et d’appuyer une gestion prudente des accès et des infrastructures.
         text_en: Seasonal ice monitoring tracks conditions observed at sites and supports careful management of access and infrastructure.
-        image: /assets/img/contracts/contracts-ice-monitoring.jpg
-        image_alt_fr: Conditions hivernales sur un site de rivière
-        image_alt_en: Winter conditions at a river site
+        image: /assets/img/contracts/contracts-ice-monitoring-agm-2025.jpg
+        image_alt_fr: Photo de rivière tirée de l’AGA 2025
+        image_alt_en: River photograph from the 2025 AGM
 
   - type: text
     kicker_fr: Une présence utile
@@ -89,12 +89,10 @@ sections:
     title_en: Maintain, monitor and inform
     body_fr: |
       La présence des équipes sur le terrain permet de repérer les besoins d’entretien, de suivre les conditions des sites et de répondre aux situations qui demandent une attention rapide. Ce travail régulier complète les efforts de protection des habitats et favorise une utilisation respectueuse des rivières.
+
+      Pour soutenir une utilisation responsable du territoire, consultez le [code d’éthique pour l’écotourisme](/assets/documents/carte-map-code-ethic-2013.pdf).
     body_en: |
       Field presence helps identify maintenance needs, follow site conditions and respond to situations that require timely attention. This regular work complements habitat-protection efforts and promotes respectful use of the rivers.
-    image_show: true
-    image: /assets/img/contracts/contracts-ten-mile-pool.jpg
-    image_alt_fr: Site de surveillance du 10 Mile
-    image_alt_en: 10 Mile monitoring site
-    image_caption_fr: La surveillance de terrain soutient les décisions quotidiennes de gestion.
-    image_caption_en: Field monitoring supports day-to-day management decisions.
+
+      To support responsible use of the territory, consult the [ecotourism code of ethics](/assets/documents/carte-map-code-ethic-2013.pdf).
 ---
