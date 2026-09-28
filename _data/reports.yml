@@ -3,14 +3,14 @@
 categories:
   - key: agreement-in-principle
     label_fr: "Entente de principe"
-    label_en: "Agreement in Principle"
+    label_en: "Memorandum of Understanding"
     documents:
       - title_fr: "Entente de principe — version française"
-        title_en: "Agreement in Principle — French version"
+        title_en: "Memorandum of Understanding — French version"
         date: "2006-01-25"
         file: /assets/documents/agreement-in-principle-restigouche-eel-watersheds-fr.pdf
       - title_fr: "Entente de principe — version anglaise"
-        title_en: "Agreement in Principle — English version"
+        title_en: "Memorandum of Understanding — English version"
         date: "2006-01-25"
         file: /assets/documents/agreement-in-principle-restigouche-eel-watersheds-en.pdf
 
