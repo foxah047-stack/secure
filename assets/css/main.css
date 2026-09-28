@@ -1177,6 +1177,7 @@ button.lang-toggle:hover { background: var(--river-light); }
 
 .nav-panel-trigger {
   display: inline-flex;
+  white-space: nowrap;
   align-items: center;
   gap: 6px;
   background: transparent;
