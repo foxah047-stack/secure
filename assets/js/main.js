@@ -243,30 +243,32 @@ document.addEventListener('DOMContentLoaded', function() {
     maxZoom: 14
   }).addTo(map);
 
-  // Official public Level 2 watershed boundaries from GeoNB (New Brunswick).
-  const watershedUrl = 'https://geonb.snb.ca/arcgis/rest/services/GeoNB_DNR_NBHN/MapServer/14/query?where=LEVL1_NAME%3D%27Restigouche%20River%20Basin%27&outFields=LEVL1_NAME%2CLEVL2_NAME&returnGeometry=true&outSR=4326&f=geojson';
+  // Public provincial watershed datasets, merged into one external Restigouche boundary.
+  const watershedSources = [
+    'https://geonb.snb.ca/arcgis/rest/services/GeoNB_DNR_NBHN/MapServer/14/query?where=LEVL1_NAME%3D%27Restigouche%20River%20Basin%27&outFields=LEVL1_NAME%2CLEVL2_NAME&returnGeometry=true&outSR=4326&f=geojson',
+    'https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/rest/services/Public/Themes_publics/MapServer/27/query?where=NOM_BV_PRIMAIRE%3D%27Ristigouche%2C%20Rivi%C3%A8re%27&outFields=NOM_BV_PRIMAIRE,NOM_COURS_DEAU_MINUSCULE&returnGeometry=true&outSR=4326&f=geojson'
+  ];
 
-  fetch(watershedUrl)
-    .then(response => {
-      if (!response.ok) throw new Error('Unable to load watershed boundaries');
-      return response.json();
-    })
-    .then(data => {
-      const watershedLayer = L.geoJSON(data, {
+  Promise.all(watershedSources.map(url => fetch(url).then(response => {
+    if (!response.ok) throw new Error('Unable to load watershed boundary');
+    return response.json();
+  })))
+    .then(datasets => {
+      const features = datasets.flatMap(dataset => dataset.features || []);
+      if (!features.length || typeof turf === 'undefined') throw new Error('Watershed boundary data is unavailable');
+
+      const watershedBoundary = turf.union(turf.featureCollection(features));
+      const watershedLayer = L.geoJSON(watershedBoundary, {
         style: {
           color: '#4a9baf',
           fillColor: '#2e6b7a',
           fillOpacity: 0.16,
           weight: 1.8
-        },
-        onEachFeature(feature, layer) {
-          const name = feature.properties.LEVL2_NAME || 'Restigouche watershed';
-          layer.bindTooltip(name, { sticky: true });
         }
-      }).addTo(map);
+      }).addTo(map).bindPopup('<strong>Restigouche Watershed</strong><br>Official public watershed boundary.');
 
       if (watershedLayer.getBounds().isValid()) map.fitBounds(watershedLayer.getBounds(), { padding: [24, 24] });
     })
-    .catch(error => console.warn('Watershed boundaries could not be loaded.', error));
+    .catch(error => console.warn('Watershed boundary could not be loaded.', error));
 
 }); // end DOMContentLoaded
