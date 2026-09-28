@@ -25,9 +25,9 @@ items:
     description_fr: Direction de l’organisation, relations avec les partenaires et priorités générales.
     visible: true
     name: Jean-Daniel Savard
-    photo: ''
-    photo_alt_en: ''
-    photo_alt_fr: ''
+    photo: /assets/img/team/jean-daniel-savard.jpg
+    photo_alt_en: Portrait of Jean-Daniel Savard
+    photo_alt_fr: Portrait de Jean-Daniel Savard
   - type: profile
     title_en: Scientific project manager
     title_fr: Gestionnaire de projets scientifiques
