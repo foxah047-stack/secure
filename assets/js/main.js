@@ -243,17 +243,30 @@ document.addEventListener('DOMContentLoaded', function() {
     maxZoom: 14
   }).addTo(map);
 
-  // Public-safe watershed boundary placeholder. Site-specific markers and sensitive
-  // habitat layers should be added only after internal review and approval.
-  L.polygon([
-    [48.30,-67.80],[48.15,-67.90],[48.00,-68.00],
-    [47.85,-67.70],[47.70,-67.50],[47.55,-67.20],
-    [47.50,-66.90],[47.60,-66.50],[47.75,-66.30],
-    [48.00,-66.20],[48.20,-66.40],[48.35,-66.70],
-    [48.40,-67.20],[48.30,-67.80]
-  ], {
-    color: '#4a9baf', fillColor: '#2e6b7a',
-    fillOpacity: 0.12, weight: 1.5, dashArray: '4 6'
-  }).addTo(map).bindPopup('<strong>Restigouche Watershed</strong><br>General public boundary. Detailed layers pending internal review.');
+  // Official public Level 2 watershed boundaries from GeoNB (New Brunswick).
+  const watershedUrl = 'https://geonb.snb.ca/arcgis/rest/services/GeoNB_DNR_NBHN/MapServer/14/query?where=LEVL1_NAME%3D%27Restigouche%20River%20Basin%27&outFields=LEVL1_NAME%2CLEVL2_NAME&returnGeometry=true&outSR=4326&f=geojson';
+
+  fetch(watershedUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Unable to load watershed boundaries');
+      return response.json();
+    })
+    .then(data => {
+      const watershedLayer = L.geoJSON(data, {
+        style: {
+          color: '#4a9baf',
+          fillColor: '#2e6b7a',
+          fillOpacity: 0.16,
+          weight: 1.8
+        },
+        onEachFeature(feature, layer) {
+          const name = feature.properties.LEVL2_NAME || 'Restigouche watershed';
+          layer.bindTooltip(name, { sticky: true });
+        }
+      }).addTo(map);
+
+      if (watershedLayer.getBounds().isValid()) map.fitBounds(watershedLayer.getBounds(), { padding: [24, 24] });
+    })
+    .catch(error => console.warn('Watershed boundaries could not be loaded.', error));
 
 }); // end DOMContentLoaded
