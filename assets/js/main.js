@@ -243,10 +243,11 @@ document.addEventListener('DOMContentLoaded', function() {
     maxZoom: 14
   }).addTo(map);
 
-  // Public provincial watershed datasets, merged into one external Restigouche boundary.
+  // Public provincial watershed datasets, merged into the Restigouche boundary upstream of Tide Head.
+  const tideHeadLongitude = -66.8;
   const watershedSources = [
     'https://geonb.snb.ca/arcgis/rest/services/GeoNB_DNR_NBHN/MapServer/14/query?where=LEVL1_NAME%3D%27Restigouche%20River%20Basin%27&outFields=LEVL1_NAME%2CLEVL2_NAME&returnGeometry=true&outSR=4326&f=geojson',
-    'https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/rest/services/Public/Themes_publics/MapServer/27/query?where=NOM_BV_PRIMAIRE%3D%27Ristigouche%2C%20Rivi%C3%A8re%27&outFields=NOM_BV_PRIMAIRE,NOM_COURS_DEAU_MINUSCULE&returnGeometry=true&outSR=4326&f=geojson'
+    'https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/rest/services/Public/Themes_publics/MapServer/28/query?where=NOM_BV_PRIMAIRE%3D%27Ristigouche%2C%20Rivi%C3%A8re%27&outFields=NOM_BV_PRIMAIRE,NOM_COURS_DEAU_MINUSCULE&returnGeometry=true&outSR=4326&f=geojson'
   ];
 
   Promise.all(watershedSources.map(url => fetch(url).then(response => {
@@ -254,8 +255,11 @@ document.addEventListener('DOMContentLoaded', function() {
     return response.json();
   })))
     .then(datasets => {
-      const features = datasets.flatMap(dataset => dataset.features || []);
-      if (!features.length || typeof turf === 'undefined') throw new Error('Watershed boundary data is unavailable');
+      if (typeof turf === 'undefined') throw new Error('Watershed boundary data is unavailable');
+      const features = datasets
+        .flatMap(dataset => dataset.features || [])
+        .filter(feature => turf.centroid(feature).geometry.coordinates[0] < tideHeadLongitude);
+      if (!features.length) throw new Error('Watershed boundary data is unavailable');
 
       const watershedBoundary = turf.union(turf.featureCollection(features));
       const watershedLayer = L.geoJSON(watershedBoundary, {
