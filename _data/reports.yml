@@ -1,6 +1,14 @@
 # Rapports et publications — organisés par catégorie.
 # Chaque catégorie devient une section repliable (accordéon) sur la page.
 categories:
+  - key: strategic-plan
+    label_fr: "Plan stratégique"
+    label_en: "Strategic plan"
+    documents:
+      - title_fr: "Plan stratégique 2025-2029"
+        title_en: "Strategic Plan 2025-2029"
+        date: "2025-02-05"
+        file: /assets/documents/strategic-plan-2025-2029.doc
   - key: committee-reports
     label_fr: "Rapports des comités"
     label_en: "Committee reports"

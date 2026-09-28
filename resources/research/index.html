@@ -16,7 +16,7 @@ permalink: /resources/research/
   <section class="reports-accordion">
     {% assign categories = site.data.reports.categories %}
     {% for cat in categories %}
-    <details class="report-category">
+    <details class="report-category" id="{{ cat.key }}">
       <summary>
         <span class="report-category-title">
           <span data-lang="en">{{ cat.label_en }}</span><span data-lang="fr">{{ cat.label_fr }}</span>
