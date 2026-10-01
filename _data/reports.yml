@@ -51,20 +51,7 @@ categories:
   - key: environmental-documentation
     label_fr: "Documentation environnementale"
     label_en: "Environmental documentation"
-    documents:
-      - title_fr: "Fiche d'information sur le Didymo"
-        title_en: "Didymo Information Sheet"
-        date: "2013-09-06"
-        file: /assets/documents/information-didymo.pdf
-      - title_fr: "Présentation scientifique — AGA 2012"
-        title_en: "Science Presentation — AGM 2012"
-        date: "2013-09-06"
-        file: /assets/documents/presentation-science-aga-agm-2012.pdf
-      - title_fr: "Rapport ECA — Restigouche, 2010"
-        title_en: "ECA Report — Restigouche, 2010"
-        date: "2016-03-10"
-        file: /assets/documents/eca-report-year-2010-restigouche-nov-2012.pdf
-
+    documents: []
   - key: maps
     label_fr: "Cartes"
     label_en: "Maps"
