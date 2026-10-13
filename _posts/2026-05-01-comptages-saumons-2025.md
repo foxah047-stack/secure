@@ -8,7 +8,7 @@ categorie_fr: "Alerte conservation"
 categorie_en: "Conservation Alert"
 projet: "Inventaire de migration des smolts"
 auteur_fr: "Équipe scientifique CGBVRR"
-auteur_en: "CGBVRR Scientific Team"
+auteur_en: "RRWMC Scientific Team"
 excerpt_fr: "Pour la deuxième année consécutive, les populations de saumon atlantique dans le bassin versant de la Restigouche demeurent sous le seuil de conservation. Voici ce que nos équipes observent sur le terrain."
 excerpt_en: "For the second consecutive year, Atlantic salmon populations in the Restigouche watershed remain below the conservation threshold. Here's what our teams are observing in the field."
 body_fr: |

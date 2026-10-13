@@ -2983,7 +2983,7 @@ a.link-card p {
 
 /* ── DONATIONS PAGE ──
    Compact document-first layout inspired by the former Wix page while
-   retaining the current CGBVRR visual system. */
+   retaining the current RRWMC visual system. */
 .donations-page {
   width: min(1160px, calc(30.75vw + 562px), calc(100% - 48px));
   margin: 0 auto;

@@ -8,7 +8,7 @@ categorie_fr: "Protection"
 categorie_en: "Protection"
 projet: "Réseau de surveillance anti-braconnage"
 auteur_fr: "Équipe terrain CGBVRR"
-auteur_en: "CGBVRR Field Team"
+auteur_en: "RRWMC Field Team"
 excerpt_fr: "De nouveaux équipements de surveillance ont été installés à plusieurs bassins à saumon prioritaires du bassin versant dans le cadre de notre programme de protection des ressources."
 excerpt_en: "New surveillance equipment has been installed at several priority salmon pools across the watershed as part of our resource protection program."
 body_fr: |
