@@ -8,14 +8,14 @@ title_fr: Modèle prédictif de température pour le protocole d’eau chaude
 title_en: Water temperature forecasting model for the Warm Water Protocol
 subtitle_fr: Anticiper les épisodes de chaleur pour mieux protéger le saumon atlantique et soutenir les décisions de gestion de la pêche.
 subtitle_en: Anticipating warm-water events to better protect Atlantic salmon and support angling-management decisions.
-hero_image: /assets/img/warm-water-protocol/warm-water-monitoring.jpg
-hero_alt_fr: Installation de suivi de la température de l’eau au bord de la rivière
-hero_alt_en: Water-temperature monitoring installation at the river’s edge
-hero_caption_fr: Les données de terrain alimentent le développement du modèle prédictif.
-hero_caption_en: Field data support development of the forecasting model.
-card_image: /assets/img/warm-water-protocol/thermal-river-imagery.png
-card_alt_fr: Imagerie thermique d’un secteur de rivière
-card_alt_en: Thermal imagery of a river reach
+hero_image: /assets/img/warm-water-protocol/saumon.jpg
+hero_alt_fr: Saumon atlantique dans son habitat naturel
+hero_alt_en: Atlantic salmon in its natural habitat
+hero_caption_fr: Protéger le saumon pendant les épisodes d’eau chaude.
+hero_caption_en: Protecting salmon during warm-water events.
+card_image: /assets/img/warm-water-protocol/saumon.jpg
+card_alt_fr: Saumon atlantique dans son habitat naturel
+card_alt_en: Atlantic salmon in its natural habitat
 
 sections:
   - type: text
@@ -67,26 +67,6 @@ sections:
         image: /assets/img/warm-water-protocol/protocol-thresholds.png
         image_alt_fr: Schéma des seuils et restrictions du protocole d’eau chaude
         image_alt_en: Diagram of Warm Water Protocol thresholds and restrictions
-
-  - type: text
-    kicker_fr: Avancement du modèle
-    kicker_en: Model progress
-    title_fr: Une routine automatisée en phase d’évaluation
-    title_en: An automated routine under evaluation
-    body_fr: |
-      La calibration du modèle CEQUEAU sur le bassin versant de la Restigouche a reproduit le débit observé avec un coefficient KGE de 0,92 pour la période 1980-2020. Pour la température minimale quotidienne, la calibration effectuée à partir des données de Camp Harmony de 2005 à 2015 a obtenu un RMSE de 1,03 °C.
-
-      Les résultats préliminaires de juillet 2025 indiquent un écart généralement inférieur à 0,75 °C à 24 heures pour la température de l’eau. L’incertitude augmente avec l’horizon de prévision et l’approche doit encore être validée sur des données archivées avant toute utilisation opérationnelle.
-    body_en: |
-      CEQUEAU calibration for the Restigouche watershed reproduced observed flow with a KGE coefficient of 0.92 for 1980-2020. For daily minimum water temperature, calibration using Camp Harmony data from 2005 to 2015 achieved an RMSE of 1.03 °C.
-
-      Preliminary results from July 2025 show a water-temperature difference generally below 0.75 °C at 24 hours. Uncertainty increases with forecast horizon, and the approach still requires validation against archived data before any operational use.
-    image_show: true
-    image: /assets/img/warm-water-protocol/warm-water-monitoring.jpg
-    image_alt_fr: Installation de suivi de la température de l’eau
-    image_alt_en: Water-temperature monitoring installation
-    image_caption_fr: Les suivis de terrain servent à calibrer et évaluer le modèle.
-    image_caption_en: Field monitoring supports model calibration and evaluation.
 
   - type: text
     kicker_fr: Documentation de référence
