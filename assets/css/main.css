@@ -1733,6 +1733,9 @@ a.btn-primary {
   gap: clamp(24px, 4vw, 42px);
   align-items: start;
 }
+.project-split-section--large-media {
+  grid-template-columns: minmax(0, 1fr) minmax(440px, 560px);
+}
 .project-section-kicker,
 .project-list-status {
   color: var(--river);

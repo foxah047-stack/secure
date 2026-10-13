@@ -53,8 +53,9 @@ layout: default
           {% if section.below_image_show and section.below_image %}{% assign has_below_image = true %}{% endif %}
           {% assign image_fit = section.image_fit | default: 'cover' | strip %}
           {% assign below_image_fit = section.below_image_fit | default: 'cover' | strip %}
+          {% assign media_size = section.media_size | default: '' | strip %}
           {% if kicker_fr != '' or sec_title_fr != '' or body_fr != '' or has_image or has_below_image %}
-          <section class="project-section{% if has_image %} project-split-section{% endif %}">
+          <section class="project-section{% if has_image %} project-split-section{% endif %}{% if media_size != '' %} project-split-section--{{ media_size }}-media{% endif %}">
             <div>
               {% if kicker_fr != '' %}<div class="project-section-kicker"><span data-lang="fr">{{ kicker_fr }}</span><span data-lang="en">{{ kicker_en }}</span></div>{% endif %}
               {% if sec_title_fr != '' %}<h2><span data-lang="fr">{{ sec_title_fr }}</span><span data-lang="en">{{ sec_title_en }}</span></h2>{% endif %}

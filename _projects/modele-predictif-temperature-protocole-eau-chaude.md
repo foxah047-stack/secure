@@ -19,8 +19,6 @@ card_alt_en: Atlantic salmon in its natural habitat
 
 sections:
   - type: text
-    kicker_fr: Contexte du projet
-    kicker_en: Project context
     title_fr: Le protocole d’eau chaude au Nouveau-Brunswick
     title_en: The Warm Water Protocol in New Brunswick
     body_fr: |
@@ -36,6 +34,7 @@ sections:
 
       <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Read the 2026 Warm Water Protocol</a><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Read the literature review</a></div>
     image_show: true
+    media_size: large
     image_fit: contain
     image: /assets/img/warm-water-protocol/protocol-stations-map.png
     image_alt_fr: Localisation des sondes de température utilisées pour le protocole d’eau chaude
@@ -51,8 +50,8 @@ sections:
     below_image_caption_en: Temperature thresholds guide restrictions and closures.
 
   - type: text
-    kicker_fr: Modèle prédictif
-    kicker_en: Predictive model
+    kicker_fr: Contexte du projet
+    kicker_en: Project context
     title_fr: Développement d’un modèle prédictif
     title_en: Developing a predictive model
     body_fr: |
@@ -74,6 +73,7 @@ sections:
       The goal is to provide one- to two-day forecasts with low simulation error so discussion can begin earlier. The routine can simulate up to eight days ahead, but uncertainty rises with the forecast horizon: preliminary results generally show an error below ±0.75 °C at 24 hours, potentially increasing to approximately ±5 °C at eight days. The tool remains under evaluation before any operational use.
 
     image_show: true
+    media_size: large
     image_fit: contain
     image: /assets/img/warm-water-protocol/decision-delay-june-2024.png
     image_alt_fr: Température de l’eau et période de fermeture partielle en juin 2024
