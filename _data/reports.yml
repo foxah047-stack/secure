@@ -107,6 +107,18 @@ categories:
         date: "2025-01-01"
         file: /assets/documents/watershade-literature-review-thermal-regimes-en.pdf
 
+  - key: warm-water-protocol-documentation
+    label_fr: "Documentation — Protocole d’eau chaude"
+    label_en: "Documentation — Warm Water Protocol"
+    documents:
+      - title_fr: "Protocole d’eau chaude — 2026"
+        title_en: "Warm Water Protocol — 2026"
+        date: "2026-05-11"
+        file: /assets/documents/restigouche-warm-water-protocol-2026.pdf
+      - title_fr: "Revue de littérature — fermetures de pêche liées à la température de l’eau"
+        title_en: "Literature review — water temperature-related fishery closures"
+        date: "2025-09-01"
+        file: /assets/documents/warm-water-protocol-literature-review-2025.pdf
   - key: sedimentation-documentation
     label_fr: "Documentation — Mitigation de la sédimentation"
     label_en: "Documentation — Sedimentation mitigation"
