@@ -8,11 +8,11 @@ title_fr: Modèle prédictif de température pour le protocole d’eau chaude
 title_en: Water temperature forecasting model for the Warm Water Protocol
 subtitle_fr: Anticiper les épisodes de chaleur pour mieux protéger le saumon atlantique et soutenir les décisions de gestion de la pêche.
 subtitle_en: Anticipating warm-water events to better protect Atlantic salmon and support angling-management decisions.
-hero_image: /assets/img/warm-water-protocol/saumon.jpg
-hero_alt_fr: Saumon atlantique dans son habitat naturel
-hero_alt_en: Atlantic salmon in its natural habitat
-hero_caption_fr: Protéger le saumon pendant les épisodes d’eau chaude.
-hero_caption_en: Protecting salmon during warm-water events.
+hero_image: /assets/img/warm-water-protocol/warm-water-monitoring.jpg
+hero_alt_fr: Installation de suivi de la température de l’eau au bord de la rivière
+hero_alt_en: Water-temperature monitoring installation at the river’s edge
+hero_caption_fr: Les données de terrain soutiennent l’application du protocole d’eau chaude.
+hero_caption_en: Field data support implementation of the Warm Water Protocol.
 card_image: /assets/img/warm-water-protocol/saumon.jpg
 card_alt_fr: Saumon atlantique dans son habitat naturel
 card_alt_en: Atlantic salmon in its natural habitat
@@ -21,64 +21,52 @@ sections:
   - type: text
     kicker_fr: Contexte du projet
     kicker_en: Project context
-    title_fr: Mieux anticiper les épisodes d’eau chaude
-    title_en: Better anticipating warm-water events
+    title_fr: Le protocole d’eau chaude au Nouveau-Brunswick
+    title_en: The Warm Water Protocol in New Brunswick
     body_fr: |
-      Le protocole d’eau chaude encadre la pêche récréative lorsque la température de la rivière atteint des niveaux qui augmentent le stress physiologique du saumon atlantique. Sur la Restigouche et l’Upsalquitch, une température minimale quotidienne supérieure à 20 °C pendant deux périodes de 24 heures mène à une restriction de pêche après 11 h. Au-delà de 23 °C pendant deux périodes de 24 heures, la pêche est fermée.
+      Le protocole d’eau chaude s’applique uniquement aux secteurs néo-brunswickois des rivières Restigouche et Upsalquitch. Il encadre la pêche récréative lorsque la température de l’eau atteint des niveaux qui augmentent le stress physiologique du saumon atlantique. Une température minimale quotidienne supérieure à 20 °C pendant deux périodes de 24 heures mène à une restriction de pêche après 11 h. Au-delà de 23 °C pendant deux périodes de 24 heures, la pêche est fermée.
 
-      Le processus repose sur des données de température en temps réel, les niveaux d’eau, les prévisions météo et les observations de comportement des poissons. Or, une décision et sa communication peuvent prendre un ou deux jours. Le projet vise donc à prévoir les dépassements de seuils afin d’amorcer la concertation plus tôt et de mieux protéger les saumons pendant les périodes critiques.
+      Des sondes de température en temps réel, actuellement utilisées dans les secteurs visés, transmettent les données qui appuient le protocole. Les niveaux d’eau, les prévisions météorologiques et les observations de comportement des poissons complètent ce portrait.
+
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Consulter le protocole d’eau chaude 2026</a></div>
     body_en: |
-      The Warm Water Protocol guides recreational angling when river temperatures reach levels that increase physiological stress in Atlantic salmon. On the Restigouche and Upsalquitch rivers, a daily minimum temperature above 20 °C for two consecutive 24-hour periods leads to an after-11 a.m. angling restriction. Above 23 °C for two consecutive 24-hour periods, angling closes.
+      The Warm Water Protocol applies only to the New Brunswick reaches of the Restigouche and Upsalquitch rivers. It guides recreational angling when water temperatures reach levels that increase physiological stress in Atlantic salmon. A daily minimum temperature above 20 °C for two consecutive 24-hour periods leads to an after-11 a.m. angling restriction. Above 23 °C for two consecutive 24-hour periods, angling closes.
 
-      The process uses real-time temperature data, water levels, weather forecasts and observations of fish behaviour. Because a decision and its communication can take one or two days, this project forecasts threshold exceedances so partners can begin discussions earlier and better protect salmon during critical periods.
+      Real-time temperature probes currently used in the monitored reaches provide the data that support the protocol. Water levels, weather forecasts and observations of fish behaviour complete this picture.
+
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Read the 2026 Warm Water Protocol</a></div>
     image_show: true
-    image: /assets/img/warm-water-protocol/thermal-river-imagery.png
-    image_alt_fr: Imagerie thermique montrant les contrastes de température dans un secteur de rivière
-    image_alt_en: Thermal imagery showing temperature contrasts in a river reach
-    image_caption_fr: Les contrastes thermiques guident le suivi des zones sensibles.
-    image_caption_en: Thermal contrasts help guide monitoring of sensitive areas.
-
-  - type: steps
-    kicker_fr: Notre méthode
-    kicker_en: Our approach
-    title_fr: Des données à la décision
-    title_en: From data to decision
-    intro_fr: Le modèle combine les observations de la rivière et les prévisions météorologiques pour mieux estimer les conditions qui se développeront dans les jours suivants.
-    intro_en: The model combines river observations and weather forecasts to better estimate conditions that may develop over the following days.
-    steps:
-      - title_fr: Suivre les secteurs visés
-        title_en: Monitor priority reaches
-        text_fr: Des thermographes en temps réel suivent les conditions de la Restigouche et de l’Upsalquitch. Les niveaux d’eau, la météo et les observations terrain complètent le portrait nécessaire à l’application du protocole.
-        text_en: Real-time temperature loggers track conditions on the Restigouche and Upsalquitch rivers. Water levels, weather and field observations complete the information needed to apply the protocol.
-        image: /assets/img/warm-water-protocol/protocol-stations-map.png
-        image_alt_fr: Carte des secteurs suivis pour le protocole d’eau chaude
-        image_alt_en: Map of reaches monitored for the Warm Water Protocol
-      - title_fr: Prévoir la température de l’eau
-        title_en: Forecast water temperature
-        text_fr: Le modèle CEQUEAU de l’INRS utilise des prévisions d’ensemble d’Environnement et Changement climatique Canada, l’assimilation des données observées et un post-traitement statistique. La routine produit des scénarios jusqu’à huit jours à l’avance, tandis que le projet évalue la fiabilité opérationnelle des prévisions à court terme.
-        text_en: INRS’s CEQUEAU model uses Environment and Climate Change Canada ensemble forecasts, assimilation of observed data and statistical post-processing. The routine produces scenarios up to eight days ahead while the project evaluates the operational reliability of short-term forecasts.
-        image: /assets/img/warm-water-protocol/restigouche-temperature-2024.jpg
-        image_alt_fr: Évolution de la température de l’eau dans la rivière Restigouche durant l’été 2024
-        image_alt_en: Water-temperature pattern in the Restigouche River during summer 2024
-      - title_fr: Appuyer une réponse plus proactive
-        title_en: Support a more proactive response
-        text_fr: Les prévisions serviront à amorcer les échanges avec le MPO, GINU, les camps de pêche et les autres partenaires avant que les seuils soient dépassés. Le projet évalue aussi comment intégrer cet outil aux décisions de fermeture, de réouverture et de communication.
-        text_en: Forecasts will help start discussions with DFO, GINU, fishing camps and other partners before thresholds are exceeded. The project also evaluates how to integrate the tool into closure, reopening and communication decisions.
-        image: /assets/img/warm-water-protocol/protocol-thresholds.png
-        image_alt_fr: Schéma des seuils et restrictions du protocole d’eau chaude
-        image_alt_en: Diagram of Warm Water Protocol thresholds and restrictions
+    image: /assets/img/warm-water-protocol/saumon.jpg
+    image_alt_fr: Saumon atlantique dans son habitat naturel
+    image_alt_en: Atlantic salmon in its natural habitat
+    image_caption_fr: Le protocole vise à réduire le stress thermique du saumon atlantique.
+    image_caption_en: The protocol aims to reduce thermal stress on Atlantic salmon.
 
   - type: text
-    kicker_fr: Documentation de référence
-    kicker_en: Reference documentation
-    title_fr: Le protocole et la revue de littérature
-    title_en: The protocol and literature review
+    kicker_fr: Modèle prédictif
+    kicker_en: Predictive model
+    title_fr: Développement d’un modèle prédictif
+    title_en: Developing a predictive model
     body_fr: |
-      Le protocole d’eau chaude 2026 décrit les paramètres suivis, les seuils et les responsabilités des partenaires. La revue de littérature synthétise les connaissances sur le stress thermique, la remise à l’eau et les options de gestion applicables à la Restigouche.
+      Les données en temps réel indiquent ce qui s’est déjà produit. Avant de mettre une restriction en place, les partenaires doivent analyser les conditions, se concerter, prendre une décision et la communiquer aux pêcheurs. Cette séquence peut créer un délai d’un à deux jours entre le dépassement d’un seuil et la mesure appliquée.
 
-      [Voir la documentation du protocole d’eau chaude](/resources/research/#warm-water-protocol-documentation).
+      En juin 2024, la température a atteint 27 °C les 19 et 20 juin, alors que la fermeture partielle a commencé le 21 juin. Le graphique illustre cette limite de l’opérationnalisation actuelle : une mesure peut commencer après le pic de température qu’elle vise à éviter.
+
+      Le projet développe et évalue un modèle CEQUEAU qui combine les observations de la rivière, les prévisions météorologiques d’ensemble et un post-traitement statistique. L’objectif est de fournir, avec une faible erreur de simulation, des prévisions à un horizon d’un à deux jours afin d’amorcer la concertation plus tôt. L’outil demeure en évaluation avant toute utilisation opérationnelle.
+
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Consulter la revue de littérature</a></div>
     body_en: |
-      The 2026 Warm Water Protocol describes the monitored parameters, thresholds and partner responsibilities. The literature review synthesizes knowledge on thermal stress, catch-and-release and management options relevant to the Restigouche.
+      Real-time data show what has already happened. Before a restriction can be put in place, partners must analyze conditions, consult one another, make a decision and communicate it to anglers. This sequence can create a one- to two-day delay between a threshold being exceeded and a management measure being applied.
 
-      [View Warm Water Protocol documentation](/resources/research/#warm-water-protocol-documentation).
+      In June 2024, water temperature reached 27 °C on June 19 and 20, while the partial closure began on June 21. The graph illustrates a limitation of the current process: a measure can start after the temperature peak it seeks to avoid.
+
+      The project is developing and evaluating a CEQUEAU model that combines river observations, ensemble weather forecasts and statistical post-processing. The goal is to provide one- to two-day forecasts with low simulation error so discussion can begin earlier. The tool remains under evaluation before any operational use.
+
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Read the literature review</a></div>
+    image_show: true
+    image: /assets/img/warm-water-protocol/decision-delay-june-2024.png
+    image_alt_fr: Température de l’eau et période de fermeture partielle en juin 2024
+    image_alt_en: Water temperature and partial-closure period in June 2024
+    image_caption_fr: En juin 2024, la fermeture partielle a commencé après deux jours où la température avait atteint 27 °C.
+    image_caption_en: In June 2024, the partial closure began after two days when water temperature reached 27 °C.
 ---
