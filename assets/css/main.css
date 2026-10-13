@@ -1814,6 +1814,10 @@ a.btn-primary {
   background: #fff;
 }
 .project-context-below-image img { object-fit: cover; }
+.project-context-media-stack .project-context-below-image--contain img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
 .project-standalone-image {
   width: min(1120px, 100%);
   margin: 0 auto clamp(28px, 5vw, 52px);

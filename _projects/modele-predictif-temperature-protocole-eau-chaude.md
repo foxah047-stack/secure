@@ -28,20 +28,22 @@ sections:
 
       Des sondes de température en temps réel, actuellement utilisées dans les secteurs visés, transmettent les données qui appuient le protocole. Les niveaux d’eau, les prévisions météorologiques et les observations de comportement des poissons complètent ce portrait.
 
-      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Consulter le protocole d’eau chaude 2026</a></div>
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Consulter le protocole d’eau chaude 2026</a><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Consulter la revue de littérature</a></div>
     body_en: |
       The Warm Water Protocol applies only to the New Brunswick reaches of the Restigouche and Upsalquitch rivers. It guides recreational angling when water temperatures reach levels that increase physiological stress in Atlantic salmon. A daily minimum temperature above 20 °C for two consecutive 24-hour periods leads to an after-11 a.m. angling restriction. Above 23 °C for two consecutive 24-hour periods, angling closes.
 
       Real-time temperature probes currently used in the monitored reaches provide the data that support the protocol. Water levels, weather forecasts and observations of fish behaviour complete this picture.
 
-      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Read the 2026 Warm Water Protocol</a></div>
+      <div class="project-button-row"><a class="project-button" href="/assets/documents/restigouche-warm-water-protocol-2026.pdf" target="_blank" rel="noopener">Read the 2026 Warm Water Protocol</a><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Read the literature review</a></div>
     image_show: true
+    image_fit: contain
     image: /assets/img/warm-water-protocol/protocol-stations-map.png
     image_alt_fr: Localisation des sondes de température utilisées pour le protocole d’eau chaude
     image_alt_en: Locations of temperature probes used for the Warm Water Protocol
     image_caption_fr: Les sondes en temps réel soutiennent le suivi des secteurs visés.
     image_caption_en: Real-time probes support monitoring of the targeted reaches.
     below_image_show: true
+    below_image_fit: contain
     below_image: /assets/img/warm-water-protocol/protocol-thresholds.png
     below_image_alt_fr: Schéma de prise de décision du protocole d’eau chaude
     below_image_alt_en: Warm Water Protocol decision-making diagram
@@ -62,7 +64,6 @@ sections:
 
       L’objectif est de fournir, avec une faible erreur de simulation, des prévisions à un horizon d’un à deux jours afin d’amorcer la concertation plus tôt. La routine peut simuler jusqu’à huit jours, mais l’incertitude augmente à mesure que l’horizon s’allonge : les résultats préliminaires montrent généralement un écart inférieur à ±0,75 °C à 24 heures, pouvant atteindre environ ±5 °C à huit jours. L’outil demeure en évaluation avant toute utilisation opérationnelle.
 
-      <div class="project-button-row"><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Consulter la revue de littérature</a></div>
     body_en: |
       Real-time data show what has already happened. Before a restriction can be put in place, partners must analyze conditions, consult one another, make a decision and communicate it to anglers. This sequence can create a one- to two-day delay between a threshold being exceeded and a management measure being applied.
 
@@ -72,14 +73,15 @@ sections:
 
       The goal is to provide one- to two-day forecasts with low simulation error so discussion can begin earlier. The routine can simulate up to eight days ahead, but uncertainty rises with the forecast horizon: preliminary results generally show an error below ±0.75 °C at 24 hours, potentially increasing to approximately ±5 °C at eight days. The tool remains under evaluation before any operational use.
 
-      <div class="project-button-row"><a class="project-button" href="/assets/documents/warm-water-protocol-literature-review-2025.pdf" target="_blank" rel="noopener">Read the literature review</a></div>
     image_show: true
+    image_fit: contain
     image: /assets/img/warm-water-protocol/decision-delay-june-2024.png
     image_alt_fr: Température de l’eau et période de fermeture partielle en juin 2024
     image_alt_en: Water temperature and partial-closure period in June 2024
     image_caption_fr: En juin 2024, la fermeture partielle a commencé après deux jours où la température avait atteint 27 °C.
     image_caption_en: In June 2024, the partial closure began after two days when water temperature reached 27 °C.
     below_image_show: true
+    below_image_fit: contain
     below_image: /assets/img/warm-water-protocol/forecast-uncertainty-over-time.png
     below_image_alt_fr: Prévision de la température de l’eau avec intervalle de confiance qui s’élargit dans le temps
     below_image_alt_en: Water-temperature forecast with a confidence interval that widens over time
