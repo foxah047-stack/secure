@@ -24,6 +24,8 @@ body_fr: |
   ## Pourquoi ça importe pour votre communauté
 
   La pêche sportive au saumon atlantique représente une activité économique importante pour la région de Campbellton et les collectivités riveraines des deux côtés de la frontière provinciale. Les camps de pêche, les guides et les commerçants locaux dépendent directement de la santé de cette population.
+
+  Pour les communautés autochtones, la pêche au saumon est aussi liée aux pratiques, aux connaissances et aux liens avec le territoire. L’état de la population et l’accès aux rivières influencent la continuité de ces pratiques et la transmission des savoirs entre les générations.
 body_en: |
   Data published by monitoring and management organizations point to a concerning situation for Atlantic salmon in the Restigouche. DFO’s stock-indicator update through 2024 places the Restigouche population below the limit reference point for 2023 and 2024.
 
@@ -37,4 +39,6 @@ body_en: |
   ## Why this matters for your community
 
   Atlantic salmon sport fishing represents an important economic activity for the Campbellton region and riverside communities on both sides of the provincial border. Fishing camps, guides and local businesses depend directly on the health of this population.
+
+  For Indigenous communities, salmon fishing is also connected to practices, knowledge and relationships with the land and waters. Population health and access to rivers affect the continuity of these practices and the transmission of knowledge between generations.
 ---
