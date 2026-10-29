@@ -23,5 +23,23 @@ permalink: /news/events/
       </a>
       {% endif %}
     </article>
+
+    {% assign event_posts = site.posts | where: "categorie_en", "Event" %}
+    {% if event_posts.size > 0 %}
+    <div class="news-listing-grid event-listing-grid">
+      {% for post in event_posts %}
+      <article class="news-card">
+        {% if post.image %}
+        <img class="news-img{% if post.image_fit == 'contain' %} news-img--contain{% endif %}" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        {% endif %}
+        <div class="news-body">
+          <div class="news-tag"><span data-lang="en">{{ post.categorie_en }}</span><span data-lang="fr">{{ post.categorie_fr }}</span></div>
+          <h2><a href="{{ post.url | relative_url }}"><span data-lang="en">{{ post.title_en | default: post.title }}</span><span data-lang="fr">{{ post.title_fr | default: post.title }}</span></a></h2>
+          <p><span data-lang="en">{{ post.excerpt_en | strip_html | truncate: 160 }}</span><span data-lang="fr">{{ post.excerpt_fr | strip_html | truncate: 160 }}</span></p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% endif %}
   </section>
 </main>

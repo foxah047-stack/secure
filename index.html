@@ -129,7 +129,7 @@ lang: fr
     {% for post in posts %}
     <article class="news-card {% if forloop.first %}featured{% endif %}">
       {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      <img class="news-img{% if post.image_fit == 'contain' %} news-img--contain{% endif %}" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
       {% endif %}
       <div class="news-body">
         <div class="news-tag">

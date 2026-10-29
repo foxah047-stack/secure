@@ -20,9 +20,13 @@ permalink: /news/
   <div class="news-listing-grid">
     {% for post in site.posts %}
     <article class="news-card">
+      {% if post.image %}
+      <img class="news-img{% if post.image_fit == 'contain' %} news-img--contain{% endif %}" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      {% else %}
       <div class="news-img-placeholder">
         <svg width="36" height="36" viewBox="0 0 56 56" fill="none"><path d="M8 36 Q16 22 24 28 Q32 34 40 22 Q48 10 52 18" stroke="rgba(255,255,255,0.3)" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="28" cy="20" rx="9" ry="5" stroke="rgba(255,255,255,0.25)" stroke-width="2" fill="none"/></svg>
       </div>
+      {% endif %}
       <div class="news-body">
         <div class="news-tag">
           {% if post.categorie_en or post.categorie_fr %}
