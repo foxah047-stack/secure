@@ -35,9 +35,9 @@ items:
     description_fr: Coordination des projets, suivis techniques, données et collaboration scientifique.
     visible: true
     name: Renaud Quilbé
-    photo: ''
-    photo_alt_en: ''
-    photo_alt_fr: ''
+    photo: /assets/img/team/renaud-quilbe.jpeg
+    photo_alt_en: Portrait of Renaud Quilbé
+    photo_alt_fr: Portrait de Renaud Quilbé
   - type: profile
     title_en: Sector supervisor – Upsalquitch
     title_fr: Superviseure – Secteur Upsalquitch
