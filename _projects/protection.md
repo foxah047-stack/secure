@@ -4,7 +4,7 @@ title: protection
 status: published
 featured: true
 order: 6
-title_fr: Protection pour le braconnage
+title_fr: Protection contre le braconnage
 title_en: Protection Against Poaching
 subtitle_fr: Réseau de caméras de surveillance aux bassins prioritaires, en coordination avec la GRC et la Sûreté du Québec, pour réduire la pression de prélèvement illégal pendant la fraie.
 subtitle_en: A camera surveillance network at priority pools, coordinated with the RCMP and the Sûreté du Québec, to reduce illegal harvest pressure during spawning season.
