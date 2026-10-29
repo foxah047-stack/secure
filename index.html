@@ -127,7 +127,7 @@ lang: fr
   <div class="news-grid">
     {% assign posts = site.posts | limit: 4 %}
     {% for post in posts %}
-    <article class="news-card {% if forloop.first %}featured{% endif %}">
+    <article class="news-card">
       {% if post.image %}
       <img class="news-img{% if post.image_fit == 'contain' %} news-img--contain{% endif %}" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
       {% endif %}
